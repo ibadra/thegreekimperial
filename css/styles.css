@@ -1,0 +1,18 @@
+/* <!------------ Navbar ------------> */
+
+.nav-item {
+    margin: auto 2.4rem;    
+}
+
+.navbar {
+    background-color: #5B3C94;
+}
+
+.logo {
+    position: absolute;
+    z-index: 1000;
+    left: 2%;
+    top: 10%;
+}
+
+
