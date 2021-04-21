@@ -36,9 +36,9 @@ body {
 
 /* <!------------ Room Tabs ------------> */
 
-.tab-text {
+/* .tab-text {
     margin: auto 0.6rem;        
-}
+} */
 
 .tab-content {
     border: 1px solid #DDD;
@@ -46,7 +46,7 @@ body {
     padding: 10px;
 }
 
-.nav.nav-tabs li a,
+/* .nav.nav-tabs li a,
 .nav.nav-tabs li.active > a:hover,
 .nav.nav-tabs li.active > a:active,
 .nav.nav-tabs li.active > a:focus {
@@ -64,11 +64,15 @@ body {
     padding: 10px;
     border: 1px solid #ddd;
     margin-top: -1px;
+} */
+
+
+
+ /* <!------------ Social Proof Icons ------------> */
+
+.social-icon {
+    width: 6rem;
+    
 }
-
-
-
-
-
 
 
