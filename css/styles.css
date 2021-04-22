@@ -1,11 +1,30 @@
-body {
-    background-color: #CBC9C7;
-}
 
 /* <!------------ Containers ------------> */
 
-#aboutUs {    
-    padding: 5rem;    
+.lilac-section, .aqua-section, .fuschia-section, .gray-section {
+    padding: 2rem 3rem;    
+}
+
+@media screen and (min-width: 1024px) {
+    .lilac-section, .aqua-section, .fuschia-section, .cream-section, .gray-section {
+    padding: 2rem 10rem;    
+    }
+}
+
+.lilac-section {
+    background-color: #CBC9C7;
+}
+
+.aqua-section {
+    background-color: #C2AFA8;
+}
+
+.fuschia-section {
+    background-color: #82075D;
+}
+
+.cream-section {
+    background-color: #f7e9c2;
 }
 
 
@@ -75,4 +94,22 @@ body {
     
 }
 
+/* <!------------ Map Section ------------> */
 
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+.iframe-container > *{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
