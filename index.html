@@ -64,8 +64,8 @@
     <!------------ Room Tabs ------------>
     <div class="container-fluid pink-section">
       <h2>Our Rooms</h2>
-        <div class="row row-content d-none d-lg-block">
-          <ul class="nav nav-tabs">
+        <div class="row row-content d-none d-lg-block tab">
+          <ul class="nav nav-tabs" role="tab-list">
             <li class="nav-item tab-text">
               <a class="nav-link active" role="tab" data-toggle="tab" href="#athens">Athens Suite</a>
             </li>
@@ -83,53 +83,81 @@
             </li>
           </ul>
           <div class="tab-content">
-              <div role="tab-pane" class="tab-pane fade show active" id="athens">
+              <div role="tab-panel" class="tab-pane fade show active" id="athens">
                 <div class="row">
-                  <div class="col-12 col-md-8">
+                  <div class="col-8">
                     <img class="img-fluid" src="https://placekitten.com/640/360" alt="">
                   </div>
-                  <div class="col-12 col-md-4">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  <div class="col-4 tab-info">
+                    <h3>Athens Suite</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <i class="fa fa-user fa-3x"><br><span>6</span></i>
+                    <i class="fa fa-bed fa-3x"><br><span>3</span></i>
+                    <div class="breakfast-info">
+                      <img class="img-fluid breakfast-img" src="https://www.flaticon.com/svg/vstatic/svg/2366/2366631.svg?token=exp=1619121482~hmac=66e49adabf5fe45057b728fdfd24b8f0" alt="">
+                      <p>Complimentary<br>Breakfast</p>
+                    </div>
+                    <a role="button" class="btn btn-primary btn-tab" href="#">Book Now</a>
                   </div>
                 </div>
               </div>
-              <div role="tab-pane" class="tab-pane fade" id="corfu">
+              <div role="tab-panel" class="tab-pane fade" id="corfu">
                 <div class="row">
-                  <div class="col-12 col-md-8">
+                  <div class="col-8">
                     <img class="img-fluid" src="https://placekitten.com/640/360" alt="">
                   </div>
-                  <div class="col-12 col-md-4">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  <div class="col-4 tab-info">
+                    <h3>Corfu Room</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <i class="fa fa-user fa-3x"><br><span>4</span></i>
+                    <i class="fa fa-bed fa-3x"><br><span>2</span></i>
+                    <div class="breakfast-info">
+                      <img class="img-fluid breakfast-img" src="https://www.flaticon.com/svg/vstatic/svg/2366/2366631.svg?token=exp=1619121482~hmac=66e49adabf5fe45057b728fdfd24b8f0" alt="">
+                      <p>Complimentary<br>Breakfast</p>
+                    </div>
+                    <a role="button" class="btn btn-primary btn-tab" href="#">Book Now</a>
                   </div>
                 </div>
               </div>
-              <div role="tab-pane" class="tab-pane fade" id="kalamata">
+              <div role="tab-panel" class="tab-pane fade" id="kalamata">
                 <div class="row">
-                  <div class="col-12 col-md-8">
+                  <div class="col-8">
                     <img class="img-fluid" src="https://placekitten.com/640/360" alt="">
                   </div>
-                  <div class="col-12 col-md-4">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  <div class="col-4 tab-info">
+                    <h3>Kalamata Room</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <i class="fa fa-user fa-3x"><br><span>2</span></i>
+                    <i class="fa fa-bed fa-3x"><br><span>1</span></i>
+                    <div class="breakfast-info">
+                      <img class="img-fluid breakfast-img" src="https://www.flaticon.com/svg/vstatic/svg/2366/2366631.svg?token=exp=1619121482~hmac=66e49adabf5fe45057b728fdfd24b8f0" alt="">
+                      <p>Complimentary<br>Breakfast</p>
+                    </div>
+                    <a role="button" class="btn btn-primary btn-tab" href="#">Book Now</a>
                   </div>
                 </div>
               </div>
-              <div role="tab-pane" class="tab-pane fade" id="ballrooms">
+              <div role="tab-panel" class="tab-pane fade" id="ballrooms">
                 <div class="row">
-                  <div class="col-12 col-md-8">
+                  <div class="col-8">
                     <img class="img-fluid" src="https://placekitten.com/640/360" alt="">
                   </div>
-                  <div class="col-12 col-md-4">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  <div class="col-4 tab-info align-self-center">
+                    <h3>Ballrooms</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>                    
+                    <a role="button" class="btn btn-primary btn-tab" href="#">Book Now</a>
                   </div>
                 </div>
               </div>
-              <div role="tab-pane" class="tab-pane fade" id="conference">
+              <div role="tab-panel" class="tab-pane fade" id="conference">
                 <div class="row">
                   <div class="col-12 col-md-8">
                     <img class="img-fluid" src="https://placekitten.com/640/360" alt="">
                   </div>
-                  <div class="col-12 col-md-4">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  <div class="col-4 tab-info align-self-center">
+                    <h3>Conference Rooms</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>                    
+                    <a role="button" class="btn btn-primary btn-tab" href="#">Book Now</a>
                   </div>
                 </div>
               </div>
