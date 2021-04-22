@@ -1,13 +1,13 @@
 
-/* <!------------ Containers ------------> */
+/* <!------------ Containers (Colors and Paddings) ------------> */
 
-.lilac-section, .aqua-section, .fuschia-section, .gray-section {
-    padding: 2rem 3rem;    
+.lilac-section, .pink-section, .fuschia-section, .cream-section, .gray-section {
+    padding: 2rem 2.5rem 3rem;    
 }
 
 @media screen and (min-width: 1024px) {
-    .lilac-section, .aqua-section, .fuschia-section, .cream-section, .gray-section {
-    padding: 2rem 10rem;    
+    .lilac-section, .pink-section, .fuschia-section, .cream-section, .gray-section {
+    padding: 2rem 10rem 5rem;    
     }
 }
 
@@ -15,7 +15,7 @@
     background-color: #CBC9C7;
 }
 
-.aqua-section {
+.pink-section {
     background-color: #C2AFA8;
 }
 
@@ -51,6 +51,32 @@
     .logo {
        min-width: 100px;      
     }
+}
+
+@media screen and (max-width: 320px) {
+    .navbar-toggler, .book-btn {
+       position: relative;
+       left: 1rem;        
+    }
+
+    .logo {
+        padding-right: 1rem;
+    }
+    
+}
+
+/* <!------------ Headings and Paragraphs ------------> */
+
+.container-fluid h1, .container-fluid h2 {
+    margin: 2rem 0 3rem 0;
+}
+
+h1+p, h3+p, h4+p {
+    line-height: 2rem;
+}
+
+h2 {
+    text-align: center;
 }
 
 /* <!------------ Room Tabs ------------> */
