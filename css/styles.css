@@ -68,7 +68,7 @@
 /* <!------------ Headings and Paragraphs ------------> */
 
 .container-fluid h1, .container-fluid h2 {
-    margin: 2rem 0 3rem 0;
+    margin: 2rem 0 4rem 0;
 }
 
 h1+p, h3+p, h4+p {
@@ -156,7 +156,7 @@ ul .tab-text {
     }
 }
 
- /* <!------------ Tab Info ------------> */
+ /* <!------ Tab Info ------> */
 
  .tab-info {
      text-align: center;
@@ -164,7 +164,7 @@ ul .tab-text {
 
  .fa-user, .fa-bed, .fa-utensils {
      margin: 2rem 2.3rem 0 0;
-     color: #9bd5e0;
+     color: #91D0B7;
  }
 
  .fa-bed {
@@ -190,7 +190,7 @@ ul .tab-text {
 
  .breakfast-p {
      font-size: 1.22rem;
-     color: #9bd5e0;
+     color: #91D0B7;
      font-weight: 600;    
  }
 
@@ -198,8 +198,82 @@ ul .tab-text {
     color: #2C6B8E;
     font-size: 2.5rem;
 }
+
+/* <!------------ Rooms Carousel ------------> */
+
+.carousel-caption {
+background-color: #75757573;
+}
+
+@media screen and (max-width:768px) {
+
+    .rooms-p {
+        margin-bottom: -5rem;
+        padding-bottom: 0;
+    }
+
+    #roomCarousel {
+        margin-top: -5rem;
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    .rooms-p {
+        margin-bottom: -5rem;
+        padding-bottom: 0;
+    }
+
+    #roomCarousel {
+        margin-top: -5rem;
+        padding-top: 0;
+    }
+    .carousel-caption {        
+        margin-bottom: -0.4rem;
+        padding: 0.5rem;
+    }
+
+    .carousel-indicators {
+        margin-bottom: -0.2rem;
+    }
+
+    .carousel-caption h3 {
+        font-size: 1rem;
+    }
+}
  
 /* <!------------ About Tarpon Springs ------------> */
+
+.tarpon-p {
+    margin-bottom: 1.5rem;
+}
+
+.tarpon-container {
+    padding-top: 2rem;
+}
+
+/* <!------------ Cards ------------> */
+
+@media screen and (min-width: 1024px) {
+    
+    .card-1 {
+        position: relative;
+        right: 2rem;
+    }
+
+    .card-2 {
+        position: relative;
+        top: 2rem;              
+    }
+
+    .card-3 {
+        position: relative;
+        top: 4rem;
+        left: 2rem;
+    }
+}
+
 
 
 
