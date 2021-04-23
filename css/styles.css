@@ -82,25 +82,18 @@ h2 {
 /* <!------------ Room Tabs ------------> */
 
 
-.tab-content {
-    /* border: 0.15rem solid #9bd5e0;
-    border-top: none;
-    padding: 10px; */
-    padding: 0;
+.tab-content {    
+    padding: 0;    
     background: #f7e9c2;
-    font-size: 15px;
+    font-size: 0.938rem;
     color: #757575;
-    line-height: 26px;
+    line-height: 1.625rem;
 }
 
 .nav.nav-tabs li a,
 .nav.nav-tabs li.active > a:hover,
 .nav.nav-tabs li.active > a:active,
-.nav.nav-tabs li.active > a:focus {    
-    /* border: 0.2rem solid #5B3C94;
-    border-bottom-width: 0rem;
-    border-left-width: 0rem;    
-    border-radius: 25%; */
+.nav.nav-tabs li.active > a:focus {  
     outline: none;
     text-decoration: none;
 }
@@ -119,14 +112,12 @@ h2 {
     border: none;
 }
 
-.nav.nav-tabs li a {
-    /* padding-top: 20px;
-    padding-bottom: 20px;
-    color: rgb(75, 73, 73); */
+.nav.nav-tabs li a { 
     display: block;
-    padding: 20px 25px;
+    padding: 1.25rem 1.563rem;
+    padding-bottom: 1.5rem;
     background: #C2AFA8;
-    font-size: 17px;
+    font-size: 1.063rem;
     font-weight: 700;
     color: #2C6B8E;
     text-transform: uppercase;
@@ -140,8 +131,6 @@ h2 {
 }
 
 ul.nav.nav-tabs {
-    /* border-color: #9bd5e0;
-    border-width: 0.15rem; */
     position: relative;
     border-bottom: none;
 }
@@ -173,31 +162,46 @@ ul .tab-text {
      text-align: center;
  }
 
- .fa-user, .fa-bed {
+ .fa-user, .fa-bed, .fa-utensils {
      margin: 2rem 2.3rem 0 0;
+     color: #9bd5e0;
  }
 
  .fa-bed {
      margin-left: 1rem;
-     margin-right: 1.5rem;
+     margin-right: 2.5rem;
+ }
+
+ .fa-utensils {
+     width: 2rem;
+     margin: auto;
  }
 
  .breakfast-info {
      display: inline-block;
      margin: 0;
      position: relative;
-     top: 0.5rem;
- }
-
- .breakfast-img {
-     max-width: 3.5rem;
-     color: gray;
+     top: 0.5rem;    
  }
 
  .btn-tab {
      margin-top: 2.5rem;
  }
+
+ .breakfast-p {
+     font-size: 1.22rem;
+     color: #9bd5e0;
+     font-weight: 600;    
+ }
+
+ .tab .tab-content h3{
+    color: #2C6B8E;
+    font-size: 2.5rem;
+}
  
+/* <!------------ About Tarpon Springs ------------> */
+
+
 
  /* <!------------ Social Proof Icons ------------> */
 
