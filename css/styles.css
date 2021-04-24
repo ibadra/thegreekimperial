@@ -356,4 +356,15 @@ background-color: #75757573;
     }
 }
 
+/* <!------------ Newsletter Section ------------> */
+
+.modal-header {
+  background-color: #1782b8;
+  color: white; 
+}
+
+.modal-body h5 {
+color: #5B3C94;
+}
+
 
