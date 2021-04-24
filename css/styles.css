@@ -1,12 +1,57 @@
+/* <!------------ Fonts and font colors ------------> */
+
+h1 {
+    font: 500% 'Merriweather', serif;
+    color: #743561;
+    font-weight: 700;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 300%;
+}
+
+#footer {
+    font-family: 'Mulish', sans-serif;
+}
+
+p {
+    font-size: 110%;
+}
+
+.lilac-section h2, .lilac-section h3, .lilac-section h4 {
+    color: #743561;
+}
+
+.pink-section h2, .pink-section h3, .pink-section h4 {
+    color: #11435e;
+}
+
+@media screen and (max-width: 767px) {
+    
+    h1 {
+    font-size: 300% 
+    }
+
+    h2 {
+        font-size: 200%;
+    }
+}
+
 
 /* <!------------ Containers (Colors and Paddings) ------------> */
 
-.lilac-section, .pink-section, .fuschia-section, .cream-section, .gray-section {
-    padding: 2rem 2.5rem 3rem;    
+.lilac-section, .pink-section, .cream-section, .gray-section {
+    padding: 2rem 2.5rem 3rem;
+    font-family: 'Mulish', sans-serif;    
 }
 
 @media screen and (min-width: 1024px) {
-    .lilac-section, .pink-section, .fuschia-section, .cream-section, .gray-section {
+    .lilac-section, .pink-section, .cream-section, .gray-section {
     padding: 4rem 10rem 5rem;    
     }
 }
@@ -19,10 +64,6 @@
     background-color: #C2AFA8;
 }
 
-.fuschia-section {
-    background-color: #82075D;
-}
-
 .cream-section {
     background-color: #f7e9c2;
 }
@@ -31,11 +72,12 @@
 /* <!------------ Navbar ------------> */
 
 .navbar-text {
-    margin: auto 2.4rem;    
+    margin: auto 2.4rem;        
 }
 
 .navbar {
     background-color: #5B3C94;
+    font: 1.2rem 'Mulish', sans-serif;
 }
 
 .logo {
@@ -164,7 +206,7 @@ ul .tab-text {
 
  .fa-user, .fa-bed, .fa-utensils {
      margin: 2rem 2.3rem 0 0;
-     color: #91D0B7;
+     color: #2C6B8E;
  }
 
  .fa-bed {
@@ -190,7 +232,7 @@ ul .tab-text {
 
  .breakfast-p {
      font-size: 1.22rem;
-     color: #91D0B7;
+     color: #2C6B8E;
      font-weight: 600;    
  }
 
@@ -276,9 +318,9 @@ background-color: #75757573;
 
  /* <!------------ Social Proof Icons ------------> */
 
-.social-icon {
-    width: 6rem;
-    margin: 2rem 7.6rem auto 7.6rem;    
+.social-proof {
+    width: 15rem;
+    margin: 1.5rem 6rem;    
 }
 
 .action-btn {
@@ -305,4 +347,13 @@ background-color: #75757573;
     height: 100%;
     width: 100%;
 }
+
+/* <!------------ Newsletter Section ------------> */
+@media screen and (max-width: 768px) {
+    .email-input {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    }
+}
+
 
