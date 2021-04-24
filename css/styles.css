@@ -15,6 +15,10 @@ h2 {
     font-size: 300%;
 }
 
+#roomCarousel h3 {
+    color: #f7e9c2;
+}
+
 #footer {
     font-family: 'Mulish', sans-serif;
 }
@@ -40,6 +44,19 @@ p {
     h2 {
         font-size: 200%;
     }
+
+    .amenities h4 {
+        font-size: 140%;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    
+    .amenities h4 {
+        font-size: 100%;
+    }
+
 }
 
 
@@ -328,6 +345,14 @@ background-color: #75757573;
     margin-bottom: 1rem;
 }
 
+@media screen and (max-width: 767px) {
+    .social-proof {
+    width: 10rem;
+    margin: 1.5rem 6rem;
+    margin-left: 3.9rem;    
+}
+}
+
 /* <!------------ Map Section ------------> */
 
 .iframe-container{
@@ -356,7 +381,7 @@ background-color: #75757573;
     }
 }
 
-/* <!------------ Newsletter Section ------------> */
+/* <!------------ Modal ------------> */
 
 .modal-header {
   background-color: #1782b8;
