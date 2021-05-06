@@ -63,14 +63,8 @@ p {
 /* <!------------ Containers (Colors and Paddings) ------------> */
 
 .lilac-section, .pink-section, .cream-section, .gray-section {
-    padding: 2rem 2.5rem 3rem;
+    padding: 7% 15%;
     font-family: 'Mulish', sans-serif;    
-}
-
-@media screen and (min-width: 1024px) {
-    .lilac-section, .pink-section, .cream-section, .gray-section {
-    padding: 4rem 10rem 5rem;    
-    }
 }
 
 .lilac-section {
@@ -103,7 +97,7 @@ p {
     left: 2%;
     top: 10%;
     width: 15%;
-    min-width: 139px;      
+    min-width: 139px;         
 }
 
 @media screen and (max-width: 375px) {
@@ -319,17 +313,24 @@ background-color: #75757573;
     .card-1 {
         position: relative;
         right: 2rem;
+        width: 20rem;
     }
 
     .card-2 {
         position: relative;
-        top: 2rem;              
+        top: 2rem;
+        width: 20rem;         
     }
 
     .card-3 {
         position: relative;
         top: 4rem;
         left: 2rem;
+        width: 20rem;
+    }
+
+    .rounded-circle {
+        max-width: 30%;
     }
 }
 
@@ -337,7 +338,7 @@ background-color: #75757573;
 
 .social-proof {
     width: 15rem;
-    margin: 1.5rem 6rem;    
+    margin: 2rem 6rem;    
 }
 
 .action-btn {
