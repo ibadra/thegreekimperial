@@ -1,314 +1,618 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head> 
+  <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="data:image/x-icon;base64,AAABAAEAEBACAAAAAACwAAAAFgAAACgAAAAQAAAAIAAAAAEAAQAAAAAAQAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAACAAAAAgAAAPJ8AADyfAAAEgQAABIEAACT5AAAk+QAABAEAAAQBAAA//wAAAAAAAAAAAAA" rel="icon" type="image/x-icon" />
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Mulish&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css"/>
-    <title>The Greek Imperial</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap-social/bootstrap-social.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="data:image/x-icon;base64,AAABAAEAEBACAAAAAACwAAAAFgAAACgAAAAQAAAAIAAAAAEAAQAAAAAAQAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAACAAAAAgAAAPJ8AADyfAAAEgQAABIEAACT5AAAk+QAABAEAAAQBAAA//wAAAAAAAAAAAAA"
+      rel="icon"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Mulish&family=Playfair+Display:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>The Greek Imperial Hotel</title>
   </head>
   <body>
     <!------------ Navbar ------------>
     <nav class="navbar navbar-expand-xl sticky-top navbar-dark py-5 pr-4">
-      <a class="navbar-brand" href="#"><img class="logo img-fluid" src="img/logo.png" width="200rem" height="200rem" alt="greek imperial hotel tarpon springs beach tourism"></a>        
-      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#greekImpNavbar">
+      <a class="navbar-brand" href="#"
+        ><img
+          class="logo img-fluid"
+          src="img/logo.png"
+          width="200rem"
+          height="200rem"
+          alt="greek imperial hotel tarpon springs beach tourism"
+      /></a>
+      <button
+        class="navbar-toggler ml-auto"
+        type="button"
+        data-toggle="collapse"
+        data-target="#greekImpNavbar"
+      >
         <span class="navbar-toggler-icon"></span>
-      </button>      
+      </button>
       <div class="collapse navbar-collapse" id="greekImpNavbar">
         <ul class="navbar-nav ml-auto text-right">
           <li class="nav-item active navbar-text">
-            <a class="nav-link" href="#">Home <span class="sr-only">Home</span></a>
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">Home</span></a
+            >
           </li>
           <li class="nav-item navbar-text">
-            <a class="nav-link " href="#about-us">About Us <span class="sr-only">About Us</span></a>
+            <a class="nav-link" href="#about-us"
+              >About Us <span class="sr-only">About Us</span></a
+            >
           </li>
           <li class="nav-item navbar-text">
-            <a class="nav-link " href="#rooms">Rooms <span class="sr-only">Rooms</span></a>
+            <a class="nav-link" href="#rooms"
+              >Rooms <span class="sr-only">Rooms</span></a
+            >
           </li>
           <li class="nav-item navbar-text">
-            <a class="nav-link " href="#restaurant">Dining <span class="sr-only">Dining</span></a>
+            <a class="nav-link" href="#restaurant"
+              >Dining <span class="sr-only">Dining</span></a
+            >
           </li>
           <li class="nav-item navbar-text">
-            <a class="nav-link" href="#store">Shop <span class="sr-only">Shop</span></a>
+            <a class="nav-link" href="#store"
+              >Shop <span class="sr-only">Shop</span></a
+            >
           </li>
           <li class="nav-item navbar-text">
-            <a class="nav-link" href="#footer">Contact <span class="sr-only">Contact</span></a>
+            <a class="nav-link" href="#footer"
+              >Contact <span class="sr-only">Contact</span></a
+            >
           </li>
-        </ul>        
-      </div>         
-      <a href="#" role="button" class="btn btn-lg btn-outline-light ml-3 px-5 book-btn" data-toggle="modal" data-target="#bookModal">Book</a>          
+        </ul>
+      </div>
+      <a
+        href="#"
+        role="button"
+        class="btn btn-lg btn-outline-light ml-3 px-5 book-btn"
+        data-toggle="modal"
+        data-target="#bookModal"
+        >Book</a
+      >
     </nav>
     <!------------ Carousel 1 ------------>
-    <div id="firstCarousel" class="carousel slide" data-interval="2200" data-ride="carousel" data-pause="false">
+    <div
+      id="firstCarousel"
+      class="carousel slide"
+      data-interval="2400"
+      data-ride="carousel"
+      data-pause="false"
+    >
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="d-block w-100" src="img/presentation.png" alt="First slide">
+          <img
+            class="d-block w-100"
+            src="img/presentation.png"
+            alt="First slide"
+          />
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="img/lobby.jpg" alt="Second slide">
+          <img class="d-block w-100" src="img/lobby.jpg" alt="Second slide" />
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="img/beach.jpg" alt="Third slide">
+          <img class="d-block w-100" src="img/beach.jpg" alt="Third slide" />
         </div>
       </div>
     </div>
     <!------- About Us ------->
     <div class="container-fluid lilac-section" id="about-us">
-        <div class="row row-content">
-          <h1>The Greek Imperial</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vulputate mi sit amet mauris commodo quis imperdiet. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt. Tincidunt ornare massa eget egestas purus viverra. Aliquet enim tortor at auctor. Aliquet enim tortor at auctor urna nunc id cursus. Non odio euismod lacinia at quis risus sed vulputate odio. Eget nunc scelerisque viverra mauris in aliquam sem. Amet consectetur adipiscing elit duis. Mattis molestie a iaculis at erat. Eget aliquet nibh praesent tristique magna sit amet. Commodo odio aenean sed adipiscing diam donec adipiscing. Tincidunt arcu non sodales neque. Tortor posuere ac ut consequat semper viverra. Amet risus nullam eget felis eget.</p>
-        </div>
+      <div class="row row-content">
+        <h1>The Greek Imperial</h1>
+        <p class="justify">
+          Experience the magnificence of Greece in Tarpon Springs. The Greek
+          Imperial invites you to enjoy the best guest experience you have ever
+          had. The Imperial is a reflection of the Greek heritage of the city
+          and we have been proud to support Tarpon Springs' tourism development
+          for more than 10 years.
+        </p>
+        <p class="justify">
+          There is something to do for everyone! Delight your palate at our
+          signature restaurant Aphrodite's Cave at The Imperial. Have a great
+          time at our pool and then get into our spa to let yourself go in a
+          tranquility oasis... All of this is awaiting for you in The Greek
+          Imperial!
+        </p>
+      </div>
     </div>
     <!------------ Room Tabs ------------>
     <div class="container-fluid pink-section" id="rooms">
       <h2 class="rooms-p">Our Rooms</h2>
-        <div class="row row-content d-none d-lg-block tab">
-          <ul class="nav nav-tabs" role="tab-list">
-            <li class="nav-item tab-text">
-              <a class="nav-link active" role="tab" data-toggle="tab" href="#athens">Athens Suite</a>
-            </li>
-            <li class="nav-item tab-text">
-              <a class="nav-link" role="tab" data-toggle="tab" href="#corfu">Corfu Room</a>
-            </li>
-            <li class="nav-item tab-text">
-              <a class="nav-link" role="tab" data-toggle="tab" href="#kalamata">Kalamata Room</a>
-            </li>
-            <li class="nav-item tab-text">
-              <a class="nav-link" role="tab" data-toggle="tab" href="#ballrooms">Ballrooms</a>
-            </li>
-            <li class="nav-item tab-text">
-              <a class="nav-link" role="tab" data-toggle="tab" href="#conference">Conference Rooms</a>
-            </li>
-          </ul>
-          <div class="tab-content">
-              <div role="tab-panel" class="tab-pane fade show active" id="athens">
-                <div class="row">
-                  <div class="col-8">
-                    <img class="img-fluid" src="img/room-2.png" alt="">
-                  </div>
-                  <div class="col-4 tab-info">
-                    <h3>Athens Suite</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <i class="fa fa-user fa-3x"><br>6</i>
-                    <i class="fa fa-bed fa-3x"><br>3</i>
-                    <div class="breakfast-info">
-                      <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="utensils" class="svg-inline--fa fa-utensils" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 416 512"><path fill="currentColor" d="M207.9 15.2c.8 4.7 16.1 94.5 16.1 128.8 0 52.3-27.8 89.6-68.9 104.6L168 486.7c.7 13.7-10.2 25.3-24 25.3H80c-13.7 0-24.7-11.5-24-25.3l12.9-238.1C27.7 233.6 0 196.2 0 144 0 109.6 15.3 19.9 16.1 15.2 19.3-5.1 61.4-5.4 64 16.3v141.2c1.3 3.4 15.1 3.2 16 0 1.4-25.3 7.9-139.2 8-141.8 3.3-20.8 44.7-20.8 47.9 0 .2 2.7 6.6 116.5 8 141.8.9 3.2 14.8 3.4 16 0V16.3c2.6-21.6 44.8-21.4 48-1.1zm119.2 285.7l-15 185.1c-1.2 14 9.9 26 23.9 26h56c13.3 0 24-10.7 24-24V24c0-13.2-10.7-24-24-24-82.5 0-221.4 178.5-64.9 300.9z"></path></svg>                      
-                      <p class="breakfast-p">Breakfast<br>Included</p>
-                    </div>
-                    <a role="button" class="btn btn-info btn-tab" data-toggle="modal" data-target="#bookModal">Book Now</a>
-                  </div>
+      <div class="row row-content d-none d-lg-block tab">
+        <ul class="nav nav-tabs" role="tab-list">
+          <li class="nav-item tab-text">
+            <a
+              class="nav-link active"
+              role="tab"
+              data-toggle="tab"
+              href="#athens"
+              >Athens Suite</a
+            >
+          </li>
+          <li class="nav-item tab-text">
+            <a class="nav-link" role="tab" data-toggle="tab" href="#corfu"
+              >Corfu Room</a
+            >
+          </li>
+          <li class="nav-item tab-text">
+            <a class="nav-link" role="tab" data-toggle="tab" href="#kalamata"
+              >Kalamata Room</a
+            >
+          </li>
+          <li class="nav-item tab-text">
+            <a class="nav-link" role="tab" data-toggle="tab" href="#ballrooms"
+              >Ballrooms</a
+            >
+          </li>
+          <li class="nav-item tab-text">
+            <a class="nav-link" role="tab" data-toggle="tab" href="#conference"
+              >Conference Rooms</a
+            >
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div role="tab-panel" class="tab-pane fade show active" id="athens">
+            <div class="row">
+              <div class="col-8">
+                <img class="img-fluid" src="img/room-2.png" alt="" />
+              </div>
+              <div class="col-4 tab-info">
+                <h3>Athens Suite</h3>
+                <p>
+                  Our Athens Suite is designed to give maximum space, comfort
+                  and luxury to a large party of guests. Equipped with TV,
+                  coffee maker and fridge.
+                </p>
+                <i class="fa fa-user fa-3x"><br />6</i>
+                <i class="fa fa-bed fa-3x"><br />3</i>
+                <div class="breakfast-info">
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="utensils"
+                    class="svg-inline--fa fa-utensils"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 416 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M207.9 15.2c.8 4.7 16.1 94.5 16.1 128.8 0 52.3-27.8 89.6-68.9 104.6L168 486.7c.7 13.7-10.2 25.3-24 25.3H80c-13.7 0-24.7-11.5-24-25.3l12.9-238.1C27.7 233.6 0 196.2 0 144 0 109.6 15.3 19.9 16.1 15.2 19.3-5.1 61.4-5.4 64 16.3v141.2c1.3 3.4 15.1 3.2 16 0 1.4-25.3 7.9-139.2 8-141.8 3.3-20.8 44.7-20.8 47.9 0 .2 2.7 6.6 116.5 8 141.8.9 3.2 14.8 3.4 16 0V16.3c2.6-21.6 44.8-21.4 48-1.1zm119.2 285.7l-15 185.1c-1.2 14 9.9 26 23.9 26h56c13.3 0 24-10.7 24-24V24c0-13.2-10.7-24-24-24-82.5 0-221.4 178.5-64.9 300.9z"
+                    ></path>
+                  </svg>
+                  <p class="breakfast-p">Breakfast<br />Included</p>
                 </div>
-              </div>
-              <div role="tab-panel" class="tab-pane fade" id="corfu">
-                <div class="row">
-                  <div class="col-8">
-                    <img class="img-fluid" src="img/room-3.png" alt="">
-                  </div>
-                  <div class="col-4 tab-info">
-                    <h3>Corfu Room</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <i class="fa fa-user fa-3x"><br>4</i>
-                    <i class="fa fa-bed fa-3x"><br>2</i>
-                    <div class="breakfast-info">
-                      <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="utensils" class="svg-inline--fa fa-utensils" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 416 512"><path fill="currentColor" d="M207.9 15.2c.8 4.7 16.1 94.5 16.1 128.8 0 52.3-27.8 89.6-68.9 104.6L168 486.7c.7 13.7-10.2 25.3-24 25.3H80c-13.7 0-24.7-11.5-24-25.3l12.9-238.1C27.7 233.6 0 196.2 0 144 0 109.6 15.3 19.9 16.1 15.2 19.3-5.1 61.4-5.4 64 16.3v141.2c1.3 3.4 15.1 3.2 16 0 1.4-25.3 7.9-139.2 8-141.8 3.3-20.8 44.7-20.8 47.9 0 .2 2.7 6.6 116.5 8 141.8.9 3.2 14.8 3.4 16 0V16.3c2.6-21.6 44.8-21.4 48-1.1zm119.2 285.7l-15 185.1c-1.2 14 9.9 26 23.9 26h56c13.3 0 24-10.7 24-24V24c0-13.2-10.7-24-24-24-82.5 0-221.4 178.5-64.9 300.9z"></path></svg>
-                      <p class="breakfast-p">Breakfast<br>Included</p>
-                    </div>
-                    <a role="button" class="btn btn-info btn-tab" data-toggle="modal" data-target="#bookModal">Book Now</a>
-                  </div>
-                </div>
-              </div>
-              <div role="tab-panel" class="tab-pane fade" id="kalamata">
-                <div class="row">
-                  <div class="col-8">
-                    <img class="img-fluid" src="img/room-1.png" alt="">
-                  </div>
-                  <div class="col-4 tab-info">
-                    <h3>Kalamata Room</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <i class="fa fa-user fa-3x"><br>2</i>
-                    <i class="fa fa-bed fa-3x"><br>1</i>
-                    <div class="breakfast-info">
-                      <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="utensils" class="svg-inline--fa fa-utensils" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 416 512"><path fill="currentColor" d="M207.9 15.2c.8 4.7 16.1 94.5 16.1 128.8 0 52.3-27.8 89.6-68.9 104.6L168 486.7c.7 13.7-10.2 25.3-24 25.3H80c-13.7 0-24.7-11.5-24-25.3l12.9-238.1C27.7 233.6 0 196.2 0 144 0 109.6 15.3 19.9 16.1 15.2 19.3-5.1 61.4-5.4 64 16.3v141.2c1.3 3.4 15.1 3.2 16 0 1.4-25.3 7.9-139.2 8-141.8 3.3-20.8 44.7-20.8 47.9 0 .2 2.7 6.6 116.5 8 141.8.9 3.2 14.8 3.4 16 0V16.3c2.6-21.6 44.8-21.4 48-1.1zm119.2 285.7l-15 185.1c-1.2 14 9.9 26 23.9 26h56c13.3 0 24-10.7 24-24V24c0-13.2-10.7-24-24-24-82.5 0-221.4 178.5-64.9 300.9z"></path></svg>
-                      <p class="breakfast-p">Breakfast<br>Included</p>
-                    </div>
-                    <a role="button" class="btn btn-info btn-tab" data-toggle="modal" data-target="#bookModal">Book Now</a>
-                  </div>
-                </div>
-              </div>
-              <div role="tab-panel" class="tab-pane fade" id="ballrooms">
-                <div class="row">
-                  <div class="col-8">
-                    <img class="img-fluid" src="img/ballroom-2.png" alt="">
-                  </div>
-                  <div class="col-4 tab-info align-self-center">
-                    <h3>Ballrooms</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>                    
-                    <a role="button" class="btn btn-info btn-tab" data-toggle="modal" data-target="#bookModal">Book Now</a>
-                  </div>
-                </div>
-              </div>
-              <div role="tab-panel" class="tab-pane fade" id="conference">
-                <div class="row">
-                  <div class="col-8">
-                    <img class="img-fluid" src="img/conference.png" alt="">
-                  </div>
-                  <div class="col-4 tab-info align-self-center">
-                    <h3>Conference Rooms</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>                    
-                    <a role="button" class="btn btn-info btn-tab" data-toggle="modal" data-target="#bookModal">Book Now</a>
-                  </div>
-                </div>
-              </div>
-          </div>
-        </div>
-    </div>
-    <!------------ Room Carousel 2 ------------>
-    <div class="container-fluid pink-section d-lg-none" id="rooms">       
-        <div id="roomCarousel" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li class="active" data-target="#roomCarousel" data-slide-to="0"></li>
-              <li data-target="#roomCarousel" data-slide-to="1"></li>
-              <li data-target="#roomCarousel" data-slide-to="2"></li>
-              <li data-target="#roomCarousel" data-slide-to="3"></li>
-              <li data-target="#roomCarousel" data-slide-to="4"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                  <img class="d-block w-100" src="img/room-2.png" alt="Athens Suite"/>
-                  <div class="carousel-caption">
-                    <h3>Athens Suite</h3>
-                    <p class="d-none d-sm-block">Let Nucamp be your guide to this off-the-beaten-path,hike-in-only campground.</p>
-                    <a role="button" class="btn btn-info" data-toggle="modal" data-target="#bookModal">Book</a>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                  <img class="d-block w-100" src="img/room-3.png" alt="Corfu Room"/>
-                  <div class="carousel-caption">
-                    <h3>Corfu Room</h3>
-                    <p class="d-none d-sm-block">Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p>
-                    <a role="button" class="btn btn-info" data-toggle="modal" data-target="#bookModal">Book</a>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                  <img class="d-block w-100" src="img/room-1.png" alt="Kalamata Room"/>
-                  <div class="carousel-caption">
-                    <h3>Kalamata Room</h3>
-                    <p class="d-none d-sm-block">Spend a few sunny days and starry nights beneath a canopy of old-growth firs at this enchanting spot by the Chrome River.</p>
-                    <a role="button" class="btn btn-info" data-toggle="modal" data-target="#bookModal">Book</a>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                  <img class="d-block w-100" src="img/ballroom-2.png" alt="Ballrooms"/>
-                  <div class="carousel-caption">
-                    <h3>Ballrooms</h3>
-                    <p class="d-none d-sm-block">Spend a few sunny days and starry nights beneath a canopy of old-growth firs at this enchanting spot by the Chrome River.</p>
-                    <a role="button" class="btn btn-info" data-toggle="modal" data-target="#bookModal">Book</a>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                  <img class="d-block w-100" src="img/conference.png" alt="Conference Rooms"/>
-                  <div class="carousel-caption">
-                    <h3>Conference Rooms</h3>
-                    <p class="d-none d-sm-block">Spend a few sunny days and starry nights beneath a canopy of old-growth firs at this enchanting spot by the Chrome River.</p>
-                    <a role="button" class="btn btn-info" data-toggle="modal" data-target="#bookModal">Book</a>
-                  </div>
+                <a
+                  role="button"
+                  class="btn btn-info btn-tab"
+                  data-toggle="modal"
+                  data-target="#bookModal"
+                  >Book Now</a
+                >
               </div>
             </div>
-            <a class="carousel-control-prev" href="#roomCarousel" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#roomCarousel" role="button" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-                <span class="sr-only">Next</span>
-            </a>                         
-        </div>           
+          </div>
+          <div role="tab-panel" class="tab-pane fade" id="corfu">
+            <div class="row">
+              <div class="col-8">
+                <img class="img-fluid" src="img/room-3.png" alt="" />
+              </div>
+              <div class="col-4 tab-info">
+                <h3>Corfu Room</h3>
+                <p>
+                  Perfect for small families, the Corfu Room invites you to
+                  relax while you plan your itinerary. Equipped with TV, coffee
+                  maker and fridge.
+                </p>
+                <i class="fa fa-user fa-3x"><br />4</i>
+                <i class="fa fa-bed fa-3x"><br />2</i>
+                <div class="breakfast-info">
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="utensils"
+                    class="svg-inline--fa fa-utensils"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 416 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M207.9 15.2c.8 4.7 16.1 94.5 16.1 128.8 0 52.3-27.8 89.6-68.9 104.6L168 486.7c.7 13.7-10.2 25.3-24 25.3H80c-13.7 0-24.7-11.5-24-25.3l12.9-238.1C27.7 233.6 0 196.2 0 144 0 109.6 15.3 19.9 16.1 15.2 19.3-5.1 61.4-5.4 64 16.3v141.2c1.3 3.4 15.1 3.2 16 0 1.4-25.3 7.9-139.2 8-141.8 3.3-20.8 44.7-20.8 47.9 0 .2 2.7 6.6 116.5 8 141.8.9 3.2 14.8 3.4 16 0V16.3c2.6-21.6 44.8-21.4 48-1.1zm119.2 285.7l-15 185.1c-1.2 14 9.9 26 23.9 26h56c13.3 0 24-10.7 24-24V24c0-13.2-10.7-24-24-24-82.5 0-221.4 178.5-64.9 300.9z"
+                    ></path>
+                  </svg>
+                  <p class="breakfast-p">Breakfast<br />Included</p>
+                </div>
+                <a
+                  role="button"
+                  class="btn btn-info btn-tab"
+                  data-toggle="modal"
+                  data-target="#bookModal"
+                  >Book Now</a
+                >
+              </div>
+            </div>
+          </div>
+          <div role="tab-panel" class="tab-pane fade" id="kalamata">
+            <div class="row">
+              <div class="col-8">
+                <img class="img-fluid" src="img/room-1.png" alt="" />
+              </div>
+              <div class="col-4 tab-info">
+                <h3>Kalamata Room</h3>
+                <p>
+                  Perfect for a getaway or a honeymoon, our Kalamata Room is
+                  your best option. Equipped with TV, coffee maker and fridge.
+                </p>
+                <i class="fa fa-user fa-3x"><br />2</i>
+                <i class="fa fa-bed fa-3x"><br />1</i>
+                <div class="breakfast-info">
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="utensils"
+                    class="svg-inline--fa fa-utensils"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 416 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M207.9 15.2c.8 4.7 16.1 94.5 16.1 128.8 0 52.3-27.8 89.6-68.9 104.6L168 486.7c.7 13.7-10.2 25.3-24 25.3H80c-13.7 0-24.7-11.5-24-25.3l12.9-238.1C27.7 233.6 0 196.2 0 144 0 109.6 15.3 19.9 16.1 15.2 19.3-5.1 61.4-5.4 64 16.3v141.2c1.3 3.4 15.1 3.2 16 0 1.4-25.3 7.9-139.2 8-141.8 3.3-20.8 44.7-20.8 47.9 0 .2 2.7 6.6 116.5 8 141.8.9 3.2 14.8 3.4 16 0V16.3c2.6-21.6 44.8-21.4 48-1.1zm119.2 285.7l-15 185.1c-1.2 14 9.9 26 23.9 26h56c13.3 0 24-10.7 24-24V24c0-13.2-10.7-24-24-24-82.5 0-221.4 178.5-64.9 300.9z"
+                    ></path>
+                  </svg>
+                  <p class="breakfast-p">Breakfast<br />Included</p>
+                </div>
+                <a
+                  role="button"
+                  class="btn btn-info btn-tab"
+                  data-toggle="modal"
+                  data-target="#bookModal"
+                  >Book Now</a
+                >
+              </div>
+            </div>
+          </div>
+          <div role="tab-panel" class="tab-pane fade" id="ballrooms">
+            <div class="row">
+              <div class="col-8">
+                <img class="img-fluid" src="img/ballroom-2.png" alt="" />
+              </div>
+              <div class="col-4 tab-info align-self-center">
+                <h3>Ballrooms</h3>
+                <p>
+                  The ballrooms are beautifully appointed with crystal
+                  chandeliers and a creamy color palette that is sure to
+                  compliment your chosen color scheme or preferred décor. The
+                  ballrooms can comfortably accommodate up to 500, 250 or 100
+                  guests for a sit-down meal with ample room for a dance floor
+                  and staging.
+                </p>
+                <a
+                  role="button"
+                  class="btn btn-info btn-tab"
+                  data-toggle="modal"
+                  data-target="#bookModal"
+                  >Book Now</a
+                >
+              </div>
+            </div>
+          </div>
+          <div role="tab-panel" class="tab-pane fade" id="conference">
+            <div class="row">
+              <div class="col-8">
+                <img class="img-fluid" src="img/conference.png" alt="" />
+              </div>
+              <div class="col-4 tab-info align-self-center">
+                <h3>Conference Rooms</h3>
+                <p>
+                  We can help you make arrangements, from mixed seating for one
+                  session, then a communal meeting set-up with lots of screens.
+                  And later, something more formal. In between it all, we will
+                  design some casual break-out venues plus open networking
+                  spaces.
+                </p>
+                <a
+                  role="button"
+                  class="btn btn-info btn-tab"
+                  data-toggle="modal"
+                  data-target="#bookModal"
+                  >Book Now</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------------ Room Carousel 2 ------------>
+    <div class="container-fluid pink-section d-lg-none" id="rooms">
+      <div id="roomCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li class="active" data-target="#roomCarousel" data-slide-to="0"></li>
+          <li data-target="#roomCarousel" data-slide-to="1"></li>
+          <li data-target="#roomCarousel" data-slide-to="2"></li>
+          <li data-target="#roomCarousel" data-slide-to="3"></li>
+          <li data-target="#roomCarousel" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="d-block w-100"
+              src="img/room-2.png"
+              alt="Athens Suite"
+            />
+            <div class="carousel-caption">
+              <h3>Athens Suite</h3>
+              <p class="d-none d-sm-block">
+                Our Athens Suite is designed to give maximum space, comfort and
+                luxury to a large party of guests.
+              </p>
+              <a
+                role="button"
+                class="btn btn-info"
+                data-toggle="modal"
+                data-target="#bookModal"
+                >Book</a
+              >
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/room-3.png" alt="Corfu Room" />
+            <div class="carousel-caption">
+              <h3>Corfu Room</h3>
+              <p class="d-none d-sm-block">
+                Perfect for small families, the Corfu Room invites you to relax
+                while you plan your itinerary.
+              </p>
+              <a
+                role="button"
+                class="btn btn-info"
+                data-toggle="modal"
+                data-target="#bookModal"
+                >Book</a
+              >
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="img/room-1.png"
+              alt="Kalamata Room"
+            />
+            <div class="carousel-caption">
+              <h3>Kalamata Room</h3>
+              <p class="d-none d-sm-block">
+                Perfect for a getaway or a honeymoon, our Kalamata Room is your
+                best option.
+              </p>
+              <a
+                role="button"
+                class="btn btn-info"
+                data-toggle="modal"
+                data-target="#bookModal"
+                >Book</a
+              >
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="img/ballroom-2.png"
+              alt="Ballrooms"
+            />
+            <div class="carousel-caption">
+              <h3>Ballrooms</h3>
+              <p class="d-none d-sm-block">
+                The ballrooms can comfortably accommodate up to 500, 250 or 100
+                guests.
+              </p>
+              <a
+                role="button"
+                class="btn btn-info"
+                data-toggle="modal"
+                data-target="#bookModal"
+                >Book</a
+              >
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="img/conference.png"
+              alt="Conference Rooms"
+            />
+            <div class="carousel-caption">
+              <h3>Conference Rooms</h3>
+              <p class="d-none d-sm-block">
+                We will design some casual break-out venues plus open networking
+                spaces.
+              </p>
+              <a
+                role="button"
+                class="btn btn-info"
+                data-toggle="modal"
+                data-target="#bookModal"
+                >Book</a
+              >
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#roomCarousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#roomCarousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
     </div>
     <!------------ Tarpon Springs Carousel 3 ------------>
     <div class="container-fluid lilac-section">
-        <div class="row row-content align-items-center m-auto tarpon-container">
-            <div class="col-12 col-md-6">
-              <h3 class="padding-p">Tarpon Springs</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-            <div class="col-12 col-md-6">
-              <div id="thirdCarousel" class="carousel slide" data-interval="2200" data-ride="carousel" data-pause="false">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img class="d-block w-100" src="img/tarpon-1.png" alt="First slide">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block w-100" src="img/tarpon-2.png" alt="Second slide">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block w-100" src="img/tarpon-3.png" alt="Third slide">
-                    </div>            
-                  </div>
-              </div>
-            </div>          
+      <div class="row row-content align-items-center m-auto tarpon-container">
+        <div class="col-12 col-md-6">
+          <h3 class="padding-p">Tarpon Springs</h3>
+          <p class="justify">
+            Back in the early 1900s, sponges were discovered in the water off
+            the coast of Tarpon Springs. This attracted Greek sponge divers to
+            the area, which is now home to the largest Greek community in the
+            United States. This hidden gem is like a trip to Greece!
+          </p>
+          <p class="justify">
+            So, are you ready for a Mediterranean get-away? Visit Tarpon Springs
+            for their unique shops, delicious restaurants and very interesting
+            history!
+          </p>
         </div>
+        <div class="col-12 col-md-6">
+          <div
+            id="thirdCarousel"
+            class="carousel slide"
+            data-interval="2500"
+            data-ride="carousel"
+            data-pause="false"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  class="d-block w-100"
+                  src="img/tarpon-1.png"
+                  alt="First slide"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="img/tarpon-2.png"
+                  alt="Second slide"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="img/tarpon-3.png"
+                  alt="Third slide"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!------------ Amenities Grid ------------>
     <div class="container-fluid pink-section amenities">
       <h2 class="padding-p">Amenities</h2>
       <div class="row row-content align-items-center py-5">
-          <div class="col-6">
-            <img class="img-fluid" src="img/valet.jpg" alt="">          
-          </div>
-          <div class="col-6">
-            <h4>Complimentary Privileges</h4>
-            <p class="d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
+        <div class="col-md-6">
+          <img class="img-fluid" src="img/valet.jpg" alt="" />
+        </div>
+        <div class="col-md-6">
+          <h4>Complimentary Privileges</h4>
+          <p class="d-none d-md-block justify">
+            Your stay at the Imperial includes free premium wi-fi, complimentary
+            Greek and American breakfast and complimentary Valet Parking for
+            every guest.
+          </p>
+        </div>
       </div>
       <div class="row row-content align-items-center py-5" id="restaurant">
-          <div class="col-6 order-last">
-            <img class="img-fluid" src="img/food.jpg" alt="">          
-          </div>
-          <div class="col-6">
-            <h4>Restaurant</h4>
-            <p class="d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
+        <div class="col-md-6 order-md-last">
+          <img class="img-fluid" src="img/food.jpg" alt="" />
+        </div>
+        <div class="col-6">
+          <h4>Restaurant</h4>
+          <p class="d-none d-md-block justify">
+            At the Imperial you feel the Greek vibes, what better than a
+            Dolmades, a Moussaka and a variety of traditional dishes and
+            signature cocktails to create the right atmosphere?! Aphrodite's
+            Cave is your place.
+          </p>
+        </div>
       </div>
       <div class="row row-content align-items-center py-5">
-          <div class="col-6">
-            <img class="img-fluid" src="img/pool.jpg" alt="">          
-          </div>
-          <div class="col-6">
-            <h4>Pool</h4>
-            <p class="d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
+        <div class="col-md-6">
+          <img class="img-fluid" src="img/pool.jpg" alt="" />
+        </div>
+        <div class="col-md-6">
+          <h4>Pool</h4>
+          <p class="d-none d-md-block justify">
+            Enjoy a great time at our outdoors pool, refresh and repeat
+            surrounded by a stylish setting for relaxing, outdoor recreation,
+            and dining.
+          </p>
+        </div>
       </div>
       <div class="row row-content align-items-center py-5">
-          <div class="col-6 order-last">
-            <img class="img-fluid" src="img/spa.jpg" alt="">          
-          </div>
-          <div class="col-6">
-            <h4>Gym and Spa</h4>
-            <p class="d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
+        <div class="col-md-6 order-md-last">
+          <img class="img-fluid" src="img/spa.jpg" alt="" />
+        </div>
+        <div class="col-md-6">
+          <h4>Gym and Spa</h4>
+          <p class="d-none d-md-block justify">
+            At our indoors gym you don't have to sacrifice your workout, you are
+            welcome to join our exclusive training routines and equipment and
+            afterward, let yourself go in our luxurious spa.
+          </p>
+        </div>
       </div>
       <div class="row row-content align-items-center py-5" id="store">
-          <div class="col-6">
-            <img class="img-fluid" src="img/store.jpg" alt="">          
-          </div>
-          <div class="col-6">
-            <h4>Store</h4>
-            <p class="d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
+        <div class="col-md-6">
+          <img class="img-fluid" src="img/store.jpg" alt="" />
+        </div>
+        <div class="col-md-6">
+          <h4>Store</h4>
+          <p class="d-none d-md-block justify">
+            Getting that last souvenir from your trip to Tarpon Springs? Come on
+            down and take a look at our great selection of Greek products and
+            Tarpon Springs exclusives at our Korintos Shoppe.
+          </p>
+        </div>
       </div>
       <div class="row row-content align-items-center py-5">
-          <div class="col-6 order-last">
-            <img class="img-fluid" src="img/wedding.jpg" alt="">          
-          </div>
-          <div class="col-6">
-            <h4>Rooms for Special Events</h4>
-            <p class="d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
+        <div class="col-md-6 order-md-last">
+          <img class="img-fluid" src="img/wedding.jpg" alt="" />
+        </div>
+        <div class="col-md-6">
+          <h4>Rooms for Special Events</h4>
+          <p class="d-none d-md-block justify">
+            Hosting you dream wedding, sweet sixteen, fundraising event? We are
+            here for you, we can help you plan your party or just reserving one
+            of our elegant ballrooms.
+          </p>
+        </div>
       </div>
     </div>
     <!------------ Review Cards ------------>
@@ -316,137 +620,245 @@
       <h2>Your Opinion Is Everything!</h2>
       <div class="row">
         <div class="col-12 col-md-10 mx-auto col-xl-4">
-          <div class="card card-1 mb-3 border-bottom-0 border-left-0 border-info">
+          <div
+            class="card card-1 mb-3 border-bottom-0 border-left-0 border-info"
+          >
             <div class="card-body">
-              <p>I will not follow where the path my lead, but I will go where there is no path, and I will leave a trail</p>
-                <div class="row">                           
-                  <img class="col-6 img-fluid rounded-circle" src="img/person-1.png" alt="">
-                  <p class="float-right align-self-center">Crystal, New York.</p>
-                </div>              
+              <p>
+                I had a wonderful experience at the Greek Imperial. Every staff
+                member I encountered, from the valet to the check- in to the
+                cleaning staff were delightful and eager to help! Thank you!
+                Will recommend to my colleagues!
+              </p>
+              <div class="row">
+                <img
+                  class="col-6 img-fluid rounded-circle"
+                  src="img/person-1.png"
+                  alt=""
+                />
+                <p class="float-right align-self-center">Crystal, New York.</p>
+              </div>
             </div>
           </div>
         </div>
         <div class="col-12 col-md-10 mx-auto col-xl-4">
-          <div class="card card-2 mb-3 border-bottom-0 border-left-0 border-info">
+          <div
+            class="card card-2 mb-3 border-bottom-0 border-left-0 border-info"
+          >
             <div class="card-body">
-              <p>I will not follow where the path my lead, but I will go where there is no path, and I will leave a trail</p>
-                <div class="row">                           
-                  <img class="col-6 img-fluid rounded-circle" src="img/person-2.png" alt="">
-                  <p class="float-right align-self-center">Patrick, San Diego.</p>
-                </div>              
+              <p>
+                This is the perfect hotel for a weekend getaway in Tarpon
+                Springs. The downtown area is a best kept secret and the
+                Imperial offers everything you need if you don’t feel like
+                venturing out.
+              </p>
+              <div class="row">
+                <img
+                  class="col-6 img-fluid rounded-circle"
+                  src="img/person-2.png"
+                  alt=""
+                />
+                <p class="float-right align-self-center">Patrick, San Diego.</p>
+              </div>
             </div>
           </div>
-        </div> 
-        <div class="col-12 col-md-10 mx-auto col-xl-4"> 
+        </div>
+        <div class="col-12 col-md-10 mx-auto col-xl-4">
           <div class="card card-3 border-bottom-0 border-left-0 border-info">
             <div class="card-body">
-              <p>I will not follow where the path my lead, but I will go where there is no path, and I will leave a trail</p>
-                <div class="row">                           
-                  <img class="col-6 img-fluid rounded-circle" src="img/person-3.png" alt="">
-                  <p class="float-right align-self-center">Rose, Tacoma.</p>
-                </div>              
+              <p>
+                The best hotel I’ve ever been privileged enough to stay at.
+                Gorgeous building, and it only gets more breathtaking when you
+                walk in. High quality rooms and high quality service. You really
+                feel you are in Greece!
+              </p>
+              <div class="row">
+                <img
+                  class="col-6 img-fluid rounded-circle"
+                  src="img/person-3.png"
+                  alt=""
+                />
+                <p class="float-right align-self-center">Rose, Tacoma.</p>
+              </div>
             </div>
           </div>
-        </div> 
+        </div>
       </div>
     </div>
-    
-    <!------------ Social Proof Icons ------------>             
-    <div class="container-fluid lilac-section text-center">      
-        <img class="img-fluid social-proof" src="img/expedia.svg" alt="">
-        <img class="img-fluid social-proof" src="img/trip-advisor.png" alt="">
-        <img class="img-fluid social-proof" src="img/trivago.svg" alt="">
+
+    <!------------ Social Proof Icons ------------>
+    <div class="container-fluid lilac-section text-center">
+      <img class="img-fluid social-proof" src="img/expedia.svg" alt="" />
+      <img class="img-fluid social-proof" src="img/trip-advisor.png" alt="" />
+      <img class="img-fluid social-proof" src="img/trivago.svg" alt="" />
     </div>
-            
-    
-    <!------------ Call to Action ------------> 
+
+    <!------------ Call to Action ------------>
     <div class="container-fluid cream-section">
       <h2>We Can't Wait To Meet You</h2>
       <form>
         <div class="form-group text-center">
-          <a class="btn btn-lg btn-info action-btn" role="button" data-toggle="modal" data-target="#bookModal">Book Now</a>
+          <a
+            class="btn btn-lg btn-info action-btn"
+            role="button"
+            data-toggle="modal"
+            data-target="#bookModal"
+            >Book Now</a
+          >
         </div>
         <div class="form-group text-center">
-          <a class="btn btn-outline-info" role="button" href="#">Contact Us</a>
+          <a class="btn btn-outline-info" role="button" href="#footer"
+            >Contact Us</a
+          >
         </div>
       </form>
     </div>
-    <!------------ Map Section ------------> 
+    <!------------ Map Section ------------>
     <div class="container-fluid lilac-section">
       <div class="row">
         <div class="col-12 col-md-4">
           <h4>Here we are!</h4>
-          <p class="d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p class="d-none d-md-block text-justify">
+            The Greek Imperial welcomes to the "Sponge Capital of the World"...
+            Its Greek heritage, and its 51 miles of waterfront allure are
+            awaiting for you!...
+          </p>
         </div>
         <div class="col-12 col-md-8 iframe-container">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2958.1383865044636!2d-82.75887040464744!3d28.151382441207534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c28cfd6f0942df%3A0xf4297f0ce0bf24b7!2sTarpon%20Springs%2C%20FL!5e0!3m2!1sen!2sus!4v1618978464197!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2958.1383865044636!2d-82.75887040464744!3d28.151382441207534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c28cfd6f0942df%3A0xf4297f0ce0bf24b7!2sTarpon%20Springs%2C%20FL!5e0!3m2!1sen!2sus!4v1618978464197!5m2!1sen!2sus"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
         </div>
       </div>
     </div>
     <!------------ Newsletter Subscription ------------>
     <div class="container-fluid cream-section">
       <h2>Subscribe to Our Newsletter</h2>
-      <form>              
-        <div class="form-group row align-items-center">              
-            <label class="sr-only" for="firstName">First Name:</label>
-            <div class="col-12 col-md-4">           
-              <input class="form-control py-4" type="text" id="firstName" placeholder="First Name">            
-            </div>              
-            <label class="sr-only" for="email">Email:</label>
-            <div class="col-12 col-md-4 mr-4 email-input">            
-              <input class="form-control py-4" type="email" id="email" placeholder="Email">            
-            </div>
-            <div class="col-12 col-md-3">
-              <button type="submit" class="btn btn-lg btn-info p-3 px-4">Subscribe</button>
-            </div>
-        </div>        
+      <form>
+        <div class="form-group row align-items-center">
+          <label class="sr-only" for="firstName">First Name:</label>
+          <div class="col-12 col-md-4">
+            <input
+              class="form-control py-4"
+              type="text"
+              id="firstName"
+              placeholder="First Name"
+            />
+          </div>
+          <label class="sr-only" for="email">Email:</label>
+          <div class="col-12 col-md-4 mr-4 email-input">
+            <input
+              class="form-control py-4"
+              type="email"
+              id="email"
+              placeholder="Email"
+            />
+          </div>
+          <div class="col-12 col-md-3">
+            <button type="submit" class="btn btn-lg btn-info p-3 px-4">
+              Subscribe
+            </button>
+          </div>
+        </div>
       </form>
     </div>
-    <!------------ Footer ------------>    
+    <!------------ Footer ------------>
     <footer class="text-center bg-dark text-white" id="footer">
       <div class="container p-4">
         <!-- Section: Social media -->
-        <section class="mb-4">                         
-            <!-- Facebook -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fa fa-facebook-f"></i></a>
-            <!-- Twitter -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fa fa-twitter"></i></a>
-            <!-- Google -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fa fa-google"></i></a>
-            <!-- Instagram -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fa fa-instagram"></i></a>
-          <!-- Section: Social media -->  
-        </section>           
-          <!-- Section: Links -->
-        <section class="">
-            <!--Grid row-->
-            <div class="row">
-              <!--Grid column-->
-              <div class="col-12 col-md-6">
-                <h5 class="text-uppercase">Links</h5>
-                <ul class="list-unstyled mb-0">
-                  <li><a class="text-white" href="#!" data-toggle="modal" data-target="#bookModal">Book</a></li>
-                  <li><a class="text-white" href="#">Home</a></li>
-                  <li><a class="text-white" href="#about-us">About Us</a></li>
-                  <li><a class="text-white" href="#rooms">Rooms</a></li>
-                  <li><a class="text-white" href="#restaurant">Dining</a></li>
-                  <li><a class="text-white" href="#store">Shop</a></li>
-                  <li><a class="text-white" href="#!">Contact</a></li>                  
-                </ul>
-              </div>
-              <!--Grid column-->
-              <!--Grid column-->              
-              <div class="col-12 col-md-6 align-self-center">
-                <a role="button" class="btn btn-link text-white" href="tel:+12065551234"><i class="fa fa-phone"></i> 1-206-555-1234</a><br />
-                <a role="button" class="btn btn-link text-white" href="mailto:campsites@nucamp.co"><i class="fa fa-envelope-o"></i> contact@thegreekimperial.com</a><br />
-                <address><a role="button" class="btn btn-link text-white" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2958.1383865044636!2d-82.75887040464744!3d28.151382441207534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c28cfd6f0942df%3A0xf4297f0ce0bf24b7!2sTarpon%20Springs%2C%20FL!5e0!3m2!1sen!2sus!4v1618978464197!5m2!1sen!2sus2352"><i class="fa fa-map-marker"></i> Fictional Avenue, Tarpon Springs, FL, 52658, USA.</a></address>
-              </div>       
-            </div>
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="fa fa-facebook-f"></i
+          ></a>
+          <!-- Twitter -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="fa fa-twitter"></i
+          ></a>
+          <!-- Google -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="fa fa-google"></i
+          ></a>
+          <!-- Instagram -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="fa fa-instagram"></i
+          ></a>
+          <!-- Section: Social media -->
         </section>
-      </div>      
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-12 col-md-6">
+              <h5 class="text-uppercase">Links</h5>
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a
+                    class="text-white"
+                    href="#!"
+                    data-toggle="modal"
+                    data-target="#bookModal"
+                    >Book</a
+                  >
+                </li>
+                <li><a class="text-white" href="#">Home</a></li>
+                <li><a class="text-white" href="#about-us">About Us</a></li>
+                <li><a class="text-white" href="#rooms">Rooms</a></li>
+                <li><a class="text-white" href="#restaurant">Dining</a></li>
+                <li><a class="text-white" href="#store">Shop</a></li>
+                <li><a class="text-white" href="#!">Contact</a></li>
+              </ul>
+            </div>
+            <!--Grid column-->
+            <!--Grid column-->
+            <div class="col-12 col-md-6 align-self-center">
+              <a
+                role="button"
+                class="btn btn-link text-white"
+                href="tel:+12065551234"
+                ><i class="fa fa-phone"></i> 1-206-555-1234</a
+              ><br />
+              <a
+                role="button"
+                class="btn btn-link text-white"
+                href="mailto:campsites@nucamp.co"
+                ><i class="fa fa-envelope-o"></i>
+                contact@thegreekimperial.com</a
+              ><br />
+              <address>
+                <a
+                  role="button"
+                  class="btn btn-link text-white"
+                  href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2958.1383865044636!2d-82.75887040464744!3d28.151382441207534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c28cfd6f0942df%3A0xf4297f0ce0bf24b7!2sTarpon%20Springs%2C%20FL!5e0!3m2!1sen!2sus!4v1618978464197!5m2!1sen!2sus2352"
+                  ><i class="fa fa-map-marker"></i> Fictional Avenue, Tarpon
+                  Springs, FL, 52658, USA.</a
+                >
+              </address>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
         © 2021 Copyright: The Greek Imperial - Ivon Badra.
-      </div>             
+      </div>
     </footer>
     <!------------ Book Modal ------------>
     <div id="bookModal" class="modal fade" role="dialog">
@@ -454,105 +866,180 @@
         <div class="modal-content">
           <div class="modal-header">
             <h3 class="modal-title">Check Availability</h3>
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
           </div>
           <div class="modal-body">
             <div class="container-fluid">
               <form>
                 <div class="form-row">
-                    <div class="col-12 col-lg-5 mx-auto">
-                        <h5 class="text-center mb-4">Staying in?</h5>                        
-                        <div class="row form-group">
-                          <label class="col-sm-5 col-form-label" for="check-in">Check in:</label>
-                          <div class="col-sm-7">
-                            <input class="form-control" type="date" id="check-in" name="check-in">
-                          </div>
-                        </div>
-                        <div class="row form-group">
-                          <label class="col-sm-5 col-form-label" for="check-out">Check out:</label>
-                          <div class="col-sm-7">
-                            <input class="form-control" type="date" id="check-out" name="check-out">
-                          </div>
-                        </div>
-                        <div class="row form-group">
-                          <label class="col-sm-5 col-form-label" for="num-of-rooms">Pick your room(s):</label>
-                          <div class="col-sm-7">
-                            <select class="form-control" name="num-of-rooms" id="num-of-rooms">
-                              <option value="">Select...</option>
-                              <option value="1suite">1 Suite</option>
-                              <option value="1room">1 Room</option>
-                              <option value="2rooms">2 Rooms</option>
-                              <option value="3rooms">3 Rooms</option>
-                              <option value="4rooms">4 Rooms</option>                                  
-                            </select>
-                          </div>
-                        </div>
-                        <div class="row form-group">
-                          <label class="col-sm-5 col-form-label" for="num-of-adults">Adults:</label>
-                          <div class="col-sm-7">
-                            <select class="form-control" name="num-of-adults" id="num-of-adults">                              
-                              <option value="1">1</option>                              
-                              <option value="2">2</option>
-                              <option value="3">3</option>
-                              <option value="4">4</option>
-                              <option value="5">5</option>
-                              <option value="6">6</option>                                   
-                            </select>
-                          </div>
-                        </div>       
-                        <div class="row form-group">
-                          <label class="col-sm-5 col-form-label" for="num-of-children">Children:</label>
-                          <div class="col-sm-7">
-                            <select class="form-control" name="num-of-children" id="num-of-children">
-                              <option value="0">0</option>                              
-                              <option value="1">1</option>
-                              <option value="2">2</option>
-                              <option value="3">3</option>
-                              <option value="4">4</option>                                  
-                            </select>
-                          </div>
-                        </div>                                                   
+                  <div class="col-12 col-lg-5 mx-auto">
+                    <h5 class="text-center mb-4">Staying in?</h5>
+                    <div class="row form-group">
+                      <label class="col-sm-5 col-form-label" for="check-in"
+                        >Check in:</label
+                      >
+                      <div class="col-sm-7">
+                        <input
+                          class="form-control"
+                          type="date"
+                          id="check-in"
+                          name="check-in"
+                        />
+                      </div>
                     </div>
-                    <hr class="d-none d-lg-block">                   
-                    <div class="col-12 col-lg-5 mx-auto">
-                          <h5 class="text-center mb-4">Have an event?</h5>
-                          <div class="row form-group">
-                            <label class="col-sm-5 col-form-label" for="event-date">Event date:</label>
-                            <div class="col-sm-7">
-                                <input class="form-control" type="date" id="event-date" name="event-date">
-                            </div>
-                          </div>
-                          <div class="row form-group align-items-center">
-                            <label class="col-sm-5 col-form-label">Pick one venue:</label>
-                            <div class="col-sm-7">
-                              <input type="radio" id="ballroom" name="venue" value="ballroom">
-                              <label class="col-form-label" for="ballroom">Ballroom</label><br>
-                              <input type="radio" id="conf-room" name="venue" value="conf-room">
-                              <label class="col-form-label" for="conf-room">Conference Room</label><br>
-                            </div>
-                          </div>
-                          <div class="row form-group">
-                            <label class="col-sm-5 col-form-label" for="type-of-event">Type of Event:</label>
-                            <div class="col-sm-7">
-                              <input class="form-control" type="text" id="type-of-event" name="type-of-event" placeholder="Type of Event">
-                            </div>
-                          </div>
-                          <div class="row form-group">
-                          <label class="col-sm-5 col-form-label" for="num-of-guests">Guests:</label>
-                          <div class="col-sm-7">
-                            <select class="form-control" name="num-of-guests" id="num-of-guests">                              
-                              <option value="1-25">1-25</option>                              
-                              <option value="26-50">26-50</option>
-                              <option value="51-75">51-75</option>
-                              <option value="76-100">76-100</option>                                                                
-                            </select>
-                          </div>
-                        </div>       
+                    <div class="row form-group">
+                      <label class="col-sm-5 col-form-label" for="check-out"
+                        >Check out:</label
+                      >
+                      <div class="col-sm-7">
+                        <input
+                          class="form-control"
+                          type="date"
+                          id="check-out"
+                          name="check-out"
+                        />
+                      </div>
                     </div>
+                    <div class="row form-group">
+                      <label class="col-sm-5 col-form-label" for="num-of-rooms"
+                        >Pick your room(s):</label
+                      >
+                      <div class="col-sm-7">
+                        <select
+                          class="form-control"
+                          name="num-of-rooms"
+                          id="num-of-rooms"
+                        >
+                          <option value="">Select...</option>
+                          <option value="1suite">1 Suite</option>
+                          <option value="1room">1 Room</option>
+                          <option value="2rooms">2 Rooms</option>
+                          <option value="3rooms">3 Rooms</option>
+                          <option value="4rooms">4 Rooms</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="row form-group">
+                      <label class="col-sm-5 col-form-label" for="num-of-adults"
+                        >Adults:</label
+                      >
+                      <div class="col-sm-7">
+                        <select
+                          class="form-control"
+                          name="num-of-adults"
+                          id="num-of-adults"
+                        >
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                          <option value="6">6</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="row form-group">
+                      <label
+                        class="col-sm-5 col-form-label"
+                        for="num-of-children"
+                        >Children:</label
+                      >
+                      <div class="col-sm-7">
+                        <select
+                          class="form-control"
+                          name="num-of-children"
+                          id="num-of-children"
+                        >
+                          <option value="0">0</option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <hr class="d-none d-lg-block" />
+                  <div class="col-12 col-lg-5 mx-auto">
+                    <h5 class="text-center mb-4">Have an event?</h5>
+                    <div class="row form-group">
+                      <label class="col-sm-5 col-form-label" for="event-date"
+                        >Event date:</label
+                      >
+                      <div class="col-sm-7">
+                        <input
+                          class="form-control"
+                          type="date"
+                          id="event-date"
+                          name="event-date"
+                        />
+                      </div>
+                    </div>
+                    <div class="row form-group align-items-center">
+                      <label class="col-sm-5 col-form-label"
+                        >Pick one venue:</label
+                      >
+                      <div class="col-sm-7">
+                        <input
+                          type="radio"
+                          id="ballroom"
+                          name="venue"
+                          value="ballroom"
+                        />
+                        <label class="col-form-label" for="ballroom"
+                          >Ballroom</label
+                        ><br />
+                        <input
+                          type="radio"
+                          id="conf-room"
+                          name="venue"
+                          value="conf-room"
+                        />
+                        <label class="col-form-label" for="conf-room"
+                          >Conference Room</label
+                        ><br />
+                      </div>
+                    </div>
+                    <div class="row form-group">
+                      <label class="col-sm-5 col-form-label" for="type-of-event"
+                        >Type of Event:</label
+                      >
+                      <div class="col-sm-7">
+                        <input
+                          class="form-control"
+                          type="text"
+                          id="type-of-event"
+                          name="type-of-event"
+                          placeholder="Type of Event"
+                        />
+                      </div>
+                    </div>
+                    <div class="row form-group">
+                      <label class="col-sm-5 col-form-label" for="num-of-guests"
+                        >Guests:</label
+                      >
+                      <div class="col-sm-7">
+                        <select
+                          class="form-control"
+                          name="num-of-guests"
+                          id="num-of-guests"
+                        >
+                          <option value="1-25">1-25</option>
+                          <option value="26-50">26-50</option>
+                          <option value="51-75">51-75</option>
+                          <option value="76-100">76-100</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 <p class="text-center mt-3">Ready?...</p>
-                <div class="form-row">                                    
-                  <button type="submit" class="btn btn-info btn-lg mx-auto">Check Availability</button>                  
+                <div class="form-row">
+                  <button type="submit" class="btn btn-info btn-lg mx-auto">
+                    Check Availability
+                  </button>
                 </div>
               </form>
             </div>
@@ -563,6 +1050,6 @@
     <!------------ Scripts ------------>
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>    
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 </html>

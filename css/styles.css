@@ -1,396 +1,401 @@
 /* <!------------ Fonts and font colors ------------> */
 
 h1 {
-    font: 500% 'Merriweather', serif;
-    color: #743561;
-    font-weight: 700;
+  font: 500% "Merriweather", serif;
+  color: #743561;
+  font-weight: 700;
 }
 
-h2, h3, h4, h5, h6 {
-    font-family: 'Playfair Display', serif;
-    font-weight: 600;
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
 }
 
 h2 {
-    font-size: 300%;
+  font-size: 300%;
 }
 
 #roomCarousel h3 {
-    color: #f7e9c2;
+  color: #f7e9c2;
 }
 
 #footer {
-    font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
 }
 
 p {
-    font-size: 110%;
+  font-size: 110%;
 }
 
-.lilac-section h2, .lilac-section h3, .lilac-section h4 {
-    color: #743561;
+.lilac-section h2,
+.lilac-section h3,
+.lilac-section h4 {
+  color: #743561;
 }
 
-.pink-section h2, .pink-section h3, .pink-section h4 {
-    color: #11435e;
+.pink-section h2,
+.pink-section h3,
+.pink-section h4 {
+  color: #11435e;
 }
 
 @media screen and (max-width: 767px) {
-    
-    h1 {
-    font-size: 300% 
-    }
+  h1 {
+    font-size: 300%;
+  }
 
-    h2 {
-        font-size: 200%;
-    }
+  h2 {
+    font-size: 200%;
+  }
 
-    .amenities h4 {
-        font-size: 140%;
-    }
-
+  .amenities h4 {
+    font-size: 140%;
+  }
 }
 
 @media screen and (max-width: 320px) {
-    
-    .amenities h4 {
-        font-size: 100%;
-    }
-
+  .amenities h4 {
+    font-size: 100%;
+  }
 }
-
 
 /* <!------------ Containers (Colors and Paddings) ------------> */
 
-.lilac-section, .pink-section, .cream-section, .gray-section {
-    padding: 7% 15%;
-    font-family: 'Mulish', sans-serif;    
+.lilac-section,
+.pink-section,
+.cream-section,
+.gray-section {
+  padding: 7% 15%;
+  font-family: "Mulish", sans-serif;
 }
 
 .lilac-section {
-    background-color: #CBC9C7;
+  background-color: #cbc9c7;
 }
 
 .pink-section {
-    background-color: #C2AFA8;
+  background-color: #c2afa8;
 }
 
 .cream-section {
-    background-color: #f7e9c2;
+  background-color: #f7e9c2;
 }
-
 
 /* <!------------ Navbar ------------> */
 
 .navbar-text {
-    margin: auto 2.4rem;        
+  margin: auto 2.4rem;
 }
 
 .navbar {
-    background-color: #5B3C94;
-    font: 1.2rem 'Mulish', sans-serif;
+  background-color: #5b3c94;
+  font: 1.2rem "Mulish", sans-serif;
 }
 
 .logo {
-    position: absolute;
-    z-index: 1000;
-    left: 2%;
-    top: 10%;
-    width: 15%;
-    min-width: 139px;         
+  position: absolute;
+  z-index: 1000;
+  left: 2%;
+  top: 10%;
+  width: 15%;
+  min-width: 139px;
 }
 
 @media screen and (max-width: 375px) {
-    .logo {
-       min-width: 100px;      
-    }
+  .logo {
+    min-width: 100px;
+  }
 }
 
 @media screen and (max-width: 320px) {
-    .navbar-toggler, .book-btn {
-       position: relative;
-       left: 1rem;        
-    }
+  .navbar-toggler,
+  .book-btn {
+    position: relative;
+    left: 1rem;
+  }
 
-    .logo {
-        padding-right: 1rem;
-    }
-    
+  .logo {
+    padding-right: 1rem;
+  }
 }
 
 /* <!------------ Headings and Paragraphs ------------> */
 
-.container-fluid h1, .container-fluid h2 {
-    margin: 2rem 0 4rem 0;
+.container-fluid h1,
+.container-fluid h2 {
+  margin: 2rem 0 4rem 0;
 }
 
-h1+p, h3+p, h4+p {
-    line-height: 2rem;
+h1 + p,
+h3 + p,
+h4 + p,
+.justify {
+  line-height: 2rem;
 }
 
 h2 {
-    text-align: center;
+  text-align: center;
 }
 
 /* <!------------ Room Tabs ------------> */
 
-
-.tab-content {    
-    padding: 0;    
-    background: #f7e9c2;
-    font-size: 0.938rem;
-    color: #757575;
-    line-height: 1.625rem;
+.tab-content {
+  padding: 0;
+  background: #f7e9c2;
+  font-size: 0.938rem;
+  color: #757575;
+  line-height: 1.625rem;
 }
 
 .nav.nav-tabs li a,
 .nav.nav-tabs li.active > a:hover,
 .nav.nav-tabs li.active > a:active,
-.nav.nav-tabs li.active > a:focus {  
-    outline: none;
-    text-decoration: none;
+.nav.nav-tabs li.active > a:focus {
+  outline: none;
+  text-decoration: none;
 }
 
 .nav-tabs .nav-link.active {
-    background-color: #f7e9c2;
+  background-color: #f7e9c2;
 }
 
-.tab .nav-tabs li{
-    margin: 0;
+.tab .nav-tabs li {
+  margin: 0;
 }
 
 .tab .nav-tabs li.active a,
-.tab .nav-tabs li a:hover{
-    color: #4b489b;
-    border: none;
+.tab .nav-tabs li a:hover {
+  color: #4b489b;
+  border: none;
 }
 
-.nav.nav-tabs li a { 
-    display: block;
-    padding: 1.25rem 1.563rem;
-    padding-bottom: 1.5rem;
-    background: #C2AFA8;
-    font-size: 1.063rem;
-    font-weight: 700;
-    color: #2C6B8E;
-    text-transform: uppercase;
-    text-align: center;
-    border-radius: 0;
-    border: none;
-    margin-right: 0;
-    overflow: hidden;
-    z-index: 1;
-    position: relative;    
+.nav.nav-tabs li a {
+  display: block;
+  padding: 1.25rem 1.563rem;
+  padding-bottom: 1.5rem;
+  background: #c2afa8;
+  font-size: 1.063rem;
+  font-weight: 700;
+  color: #2c6b8e;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 0;
+  border: none;
+  margin-right: 0;
+  overflow: hidden;
+  z-index: 1;
+  position: relative;
 }
 
 ul.nav.nav-tabs {
-    position: relative;
-    border-bottom: none;
+  position: relative;
+  border-bottom: none;
 }
 
 ul .tab-text {
-    border-color: black;
+  border-color: black;
 }
 
-.tab-pane {   
-    padding: 3rem;    
-}  
+.tab-pane {
+  padding: 3rem;
+}
 
-.tab .tab-content h3{
-    margin-bottom: 1rem;
+.tab .tab-content h3 {
+  margin-bottom: 1rem;
 }
 
 @media screen and (max-width: 1024px) {
-    .tab {
-        width: 140%;
-        margin: 0;
-        position: relative;
-        right: 9rem;
-    }
+  .tab {
+    width: 140%;
+    margin: 0;
+    position: relative;
+    right: 9rem;
+  }
 }
 
- /* <!------ Tab Info ------> */
+/* <!------ Tab Info ------> */
 
- .tab-info {
-     text-align: center;
- }
+.tab-info {
+  text-align: center;
+}
 
- .fa-user, .fa-bed, .fa-utensils {
-     margin: 2rem 2.3rem 0 0;
-     color: #2C6B8E;
- }
+.fa-user,
+.fa-bed,
+.fa-utensils {
+  margin: 2rem 2.3rem 0 0;
+  color: #2c6b8e;
+}
 
- .fa-bed {
-     margin-left: 1rem;
-     margin-right: 2.5rem;
- }
+.fa-bed {
+  margin-left: 1rem;
+  margin-right: 2.5rem;
+}
 
- .fa-utensils {
-     width: 2rem;
-     margin: auto;
- }
+.fa-utensils {
+  width: 2rem;
+  margin: auto;
+}
 
- .breakfast-info {
-     display: inline-block;
-     margin: 0;
-     position: relative;
-     top: 0.5rem;    
- }
+.breakfast-info {
+  display: inline-block;
+  margin: 0;
+  position: relative;
+  top: 0.5rem;
+}
 
- .btn-tab {
-     margin-top: 2.5rem;
- }
+.btn-tab {
+  margin-top: 2.5rem;
+}
 
- .breakfast-p {
-     font-size: 1.22rem;
-     color: #2C6B8E;
-     font-weight: 600;    
- }
+.breakfast-p {
+  font-size: 1.22rem;
+  color: #2c6b8e;
+  font-weight: 600;
+}
 
- .tab .tab-content h3{
-    color: #2C6B8E;
-    font-size: 2.5rem;
+.tab .tab-content h3 {
+  color: #2c6b8e;
+  font-size: 2.5rem;
 }
 
 /* <!------------ Rooms Carousel ------------> */
 
 .carousel-caption {
-background-color: #75757573;
+  background-color: #75757573;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
+  .rooms-p {
+    margin-bottom: -5rem;
+    padding-bottom: 0;
+  }
 
-    .rooms-p {
-        margin-bottom: -5rem;
-        padding-bottom: 0;
-    }
-
-    #roomCarousel {
-        margin-top: -5rem;
-        padding-top: 0;
-    }
+  #roomCarousel {
+    margin-top: -5rem;
+    padding-top: 0;
+  }
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
+  .rooms-p {
+    margin-bottom: -5rem;
+    padding-bottom: 0;
+  }
 
-    .rooms-p {
-        margin-bottom: -5rem;
-        padding-bottom: 0;
-    }
+  #roomCarousel {
+    margin-top: -5rem;
+    padding-top: 0;
+  }
+  .carousel-caption {
+    margin-bottom: -0.4rem;
+    padding: 0.5rem;
+  }
 
-    #roomCarousel {
-        margin-top: -5rem;
-        padding-top: 0;
-    }
-    .carousel-caption {        
-        margin-bottom: -0.4rem;
-        padding: 0.5rem;
-    }
+  .carousel-indicators {
+    margin-bottom: -0.2rem;
+  }
 
-    .carousel-indicators {
-        margin-bottom: -0.2rem;
-    }
-
-    .carousel-caption h3 {
-        font-size: 1rem;
-    }
+  .carousel-caption h3 {
+    font-size: 1rem;
+  }
 }
- 
+
 /* <!------------ About Tarpon Springs ------------> */
 
 .tarpon-p {
-    margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .tarpon-container {
-    padding-top: 2rem;
+  padding-top: 2rem;
 }
 
 /* <!------------ Cards ------------> */
 
 @media screen and (min-width: 1024px) {
-    
-    .card-1 {
-        position: relative;
-        right: 2rem;
-        width: 20rem;
-    }
+  .card-1 {
+    position: relative;
+    right: 2rem;
+    width: 20rem;
+  }
 
-    .card-2 {
-        position: relative;
-        top: 2rem;
-        width: 20rem;         
-    }
+  .card-2 {
+    position: relative;
+    top: 2rem;
+    width: 20rem;
+  }
 
-    .card-3 {
-        position: relative;
-        top: 4rem;
-        left: 2rem;
-        width: 20rem;
-    }
+  .card-3 {
+    position: relative;
+    top: 4rem;
+    left: 2rem;
+    width: 20rem;
+  }
 
-    .rounded-circle {
-        max-width: 30%;
-    }
+  .rounded-circle {
+    max-width: 30%;
+  }
 }
 
- /* <!------------ Social Proof Icons ------------> */
+/* <!------------ Social Proof Icons ------------> */
 
 .social-proof {
-    width: 15rem;
-    margin: 2rem 6rem;    
+  width: 15rem;
+  margin: 2rem 6rem;
 }
 
 .action-btn {
-    padding: 1rem 3rem;
-    margin-bottom: 1rem;
+  padding: 1rem 3rem;
+  margin-bottom: 1rem;
 }
 
 @media screen and (max-width: 767px) {
-    .social-proof {
+  .social-proof {
     width: 10rem;
     margin: 1.5rem 6rem;
-    margin-left: 3.9rem;    
-}
+    margin-left: 3.9rem;
+  }
 }
 
 /* <!------------ Map Section ------------> */
 
-.iframe-container{
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
 }
-.iframe-container > *{
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
+.iframe-container > * {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
 }
 
 /* <!------------ Newsletter Section ------------> */
 @media screen and (max-width: 768px) {
-    .email-input {
+  .email-input {
     margin-top: 1rem;
     margin-bottom: 1.5rem;
-    }
+  }
 }
 
 /* <!------------ Modal ------------> */
 
 .modal-header {
   background-color: #1782b8;
-  color: white; 
+  color: white;
 }
 
 .modal-body h5 {
-color: #5B3C94;
+  color: #5b3c94;
 }
-
-
