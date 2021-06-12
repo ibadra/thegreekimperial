@@ -8,7 +8,6 @@
       rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
-    />
     <link
       rel="stylesheet"
       href="node_modules/bootstrap-social/bootstrap-social.css"
@@ -16,15 +15,14 @@
     <link rel="stylesheet" href="css/styles.css" />
     <!-- endbuild -->
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link
       href="data:image/x-icon;base64,AAABAAEAEBACAAAAAACwAAAAFgAAACgAAAAQAAAAIAAAAAEAAQAAAAAAQAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAACAAAAAgAAAPJ8AADyfAAAEgQAABIEAACT5AAAk+QAABAEAAAQBAAA//wAAAAAAAAAAAAA"
       rel="icon"
       type="image/x-icon"
     />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Mulish&family=Playfair+Display:wght@600&display=swap"
       rel="stylesheet"
@@ -121,25 +119,22 @@
     <div class="container-fluid lilac-section" id="about-us">
       <div class="row row-content">
         <h1>The Greek Imperial</h1>
-        <p class="justify">
+        <p class="line text-justify">
           Experience the magnificence of Greece in Tarpon Springs. The Greek
           Imperial invites you to enjoy the best guest experience you have ever
           had. The Imperial is a reflection of the Greek heritage of the city
           and we have been proud to support Tarpon Springs' tourism development
-          for more than 10 years.
-        </p>
-        <p class="justify">
-          There is something to do for everyone! Delight your palate at our
-          signature restaurant Aphrodite's Cave at The Imperial. Have a great
-          time at our pool and then get into our spa to let yourself go in a
-          tranquility oasis... All of this is awaiting for you in The Greek
-          Imperial!
+          for more than 10 years.<br /><br />There is something to do for
+          everyone! Delight your palate at our signature restaurant Aphrodite's
+          Cave at The Imperial. Have a great time at our pool and then get into
+          our spa to let yourself go in a tranquility oasis... All of this is
+          awaiting for you in The Greek Imperial!
         </p>
       </div>
     </div>
     <!------------ Room Tabs ------------>
-    <div class="container-fluid pink-section" id="rooms">
-      <h2 class="rooms-p">Our Rooms</h2>
+    <div class="container-fluid pink-section">
+      <h2 class="rooms-p" id="rooms">Our Rooms</h2>
       <div class="row row-content d-none d-lg-block tab">
         <ul class="nav nav-tabs" role="tab-list">
           <li class="nav-item tab-text">
@@ -485,18 +480,16 @@
     </div>
     <!------------ Tarpon Springs Carousel 3 ------------>
     <div class="container-fluid lilac-section">
-      <div class="row row-content align-items-center m-auto tarpon-container">
+      <div class="row row-content align-items-center tarpon-container px-0">
         <div class="col-12 col-md-6">
-          <h3 class="padding-p">Tarpon Springs</h3>
-          <p class="justify">
+          <h3>Tarpon Springs</h3>
+          <p class="line text-justify">
             Back in the early 1900s, sponges were discovered in the water off
             the coast of Tarpon Springs. This attracted Greek sponge divers to
             the area, which is now home to the largest Greek community in the
-            United States. This hidden gem is like a trip to Greece!
-          </p>
-          <p class="justify">
-            So, are you ready for a Mediterranean get-away? Visit Tarpon Springs
-            for their unique shops, delicious restaurants and very interesting
+            United States. This hidden gem is like a trip to Greece!<br /><br />So,
+            are you ready for a Mediterranean get-away? Visit Tarpon Springs for
+            their unique shops, delicious restaurants and very interesting
             history!
           </p>
         </div>
@@ -537,8 +530,8 @@
     </div>
     <!------------ Amenities Grid ------------>
     <div class="container-fluid pink-section amenities">
-      <h2 class="padding-p">Amenities</h2>
-      <div class="row row-content align-items-center py-5">
+      <h2 class="">Amenities</h2>
+      <div class="row row-content align-items-center pt-4 pb-5">
         <div class="col-md-6 img-decor">
           <img
             class="img-shape img-fluid"
@@ -546,7 +539,7 @@
             alt="Complimentary Privileges"
           />
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6" id="restaurant">
           <h4>Complimentary Privileges</h4>
           <p class="d-none d-md-block justify">
             Your stay at the Imperial includes free premium wi-fi, complimentary
@@ -555,7 +548,7 @@
           </p>
         </div>
       </div>
-      <div class="row row-content align-items-center py-5" id="restaurant">
+      <div class="row row-content align-items-center pb-5">
         <div class="col-md-6 img-decor order-md-last">
           <img
             class="img-shape img-fluid"
@@ -573,7 +566,7 @@
           </p>
         </div>
       </div>
-      <div class="row row-content align-items-center py-5">
+      <div class="row row-content align-items-center pb-5">
         <div class="col-md-6 img-decor">
           <img class="img-shape img-fluid" src="img/pool.jpg" alt="Pool" />
         </div>
@@ -586,7 +579,7 @@
           </p>
         </div>
       </div>
-      <div class="row row-content align-items-center py-5">
+      <div class="row row-content align-items-center pb-5">
         <div class="col-md-6 img-decor order-md-last">
           <img
             class="img-shape img-fluid"
@@ -594,7 +587,7 @@
             alt="Gym and Spa"
           />
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6" id="store">
           <h4>Gym and Spa</h4>
           <p class="d-none d-md-block justify">
             At our indoors gym you don't have to sacrifice your workout, you are
@@ -603,7 +596,7 @@
           </p>
         </div>
       </div>
-      <div class="row row-content align-items-center py-5" id="store">
+      <div class="row row-content align-items-center pb-5">
         <div class="col-md-6 img-decor">
           <img class="img-shape img-fluid" src="img/store.jpg" alt="Store" />
         </div>
@@ -616,7 +609,7 @@
           </p>
         </div>
       </div>
-      <div class="row row-content align-items-center py-5">
+      <div class="row row-content align-items-center pb-5">
         <div class="col-md-6 img-decor order-md-last">
           <img
             class="img-shape img-fluid"
@@ -637,47 +630,60 @@
     <!------------ Review Cards ------------>
     <div class="container-fluid lilac-section">
       <h2>Your Opinion Is Everything!</h2>
-      <div class="row">
+      <div class="row row-content">
         <div class="col-12 col-md-10 mx-auto col-xl-4">
           <div
             class="card card-1 mb-3 border-bottom-0 border-left-0 border-info"
           >
             <div class="card-body">
-              <p>
+              <p class="text-justify">
                 I had a wonderful experience at the Greek Imperial. Every staff
                 member I encountered, from the valet to the check- in to the
                 cleaning staff were delightful and eager to help! Thank you!
                 Will recommend to my colleagues!
               </p>
               <div class="row">
-                <img
-                  class="col-6 img-fluid rounded-circle"
-                  src="img/person-1.png"
-                  alt=""
-                />
-                <p class="float-right align-self-center">Crystal, New York.</p>
+                <div class="col-2 p-0 ml-2">
+                  <img
+                    class="img-fluid rounded-circle"
+                    src="img/person-1.png"
+                    alt="guest-review"
+                  />
+                </div>
+                <div class="col align-self-center">
+                  <p class="float-left">Crystal, New York.</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
         <div class="col-12 col-md-10 mx-auto col-xl-4">
           <div
-            class="card card-2 mb-3 border-bottom-0 border-left-0 border-info"
+            class="
+              card card-2
+              mb-3
+              border-bottom-0 border-left-0 border-info
+              px-1
+            "
           >
             <div class="card-body">
-              <p>
+              <p class="text-justify">
                 This is the perfect hotel for a weekend getaway in Tarpon
                 Springs. The downtown area is a best kept secret and the
                 Imperial offers everything you need if you don’t feel like
                 venturing out.
               </p>
               <div class="row">
-                <img
-                  class="col-6 img-fluid rounded-circle"
-                  src="img/person-2.png"
-                  alt=""
-                />
-                <p class="float-right align-self-center">Patrick, San Diego.</p>
+                <div class="col-2 p-0 ml-2">
+                  <img
+                    class="img-fluid rounded-circle"
+                    src="img/person-2.png"
+                    alt="guest-review"
+                  />
+                </div>
+                <div class="col align-self-center">
+                  <p class="float-left">Patrick, San Diego.</p>
+                </div>
               </div>
             </div>
           </div>
@@ -685,19 +691,23 @@
         <div class="col-12 col-md-10 mx-auto col-xl-4">
           <div class="card card-3 border-bottom-0 border-left-0 border-info">
             <div class="card-body">
-              <p>
+              <p class="text-justify">
                 The best hotel I’ve ever been privileged enough to stay at.
                 Gorgeous building, and it only gets more breathtaking when you
                 walk in. High quality rooms and high quality service. You really
                 feel you are in Greece!
               </p>
               <div class="row">
-                <img
-                  class="col-6 img-fluid rounded-circle"
-                  src="img/person-3.png"
-                  alt=""
-                />
-                <p class="float-right align-self-center">Rose, Tacoma.</p>
+                <div class="col-2 p-0 ml-2">
+                  <img
+                    class="img-fluid rounded-circle"
+                    src="img/person-3.png"
+                    alt="guest-review"
+                  />
+                </div>
+                <div class="col align-self-center">
+                  <p class="float-left">Rose, Tacoma.</p>
+                </div>
               </div>
             </div>
           </div>
@@ -737,7 +747,7 @@
       <div class="row">
         <div class="col-12 col-md-4">
           <h4>Here we are!</h4>
-          <p class="d-none d-md-block text-justify">
+          <p class="d-none d-md-block text-justify line">
             The Greek Imperial welcomes to the "Sponge Capital of the World"...
             Its Greek heritage, and its 51 miles of waterfront allure are
             awaiting for you!...

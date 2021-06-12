@@ -133,7 +133,7 @@ p {
 h1 + p,
 h3 + p,
 h4 + p,
-.justify {
+.line {
   line-height: 2rem;
 }
 
@@ -350,7 +350,7 @@ ul .tab-text {
   }
 
   .rounded-circle {
-    max-width: 30%;
+    width: 100px;
   }
 }
 
@@ -411,10 +411,4 @@ ul .tab-text {
 
 .modal-body h5 {
   color: #5b3c94;
-}
-
-.title-style {
-  background-color: ;
-  padding: 1rem;
-  padding-right: 7rem;
 }
