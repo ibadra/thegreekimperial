@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- build:css css/main.css -->
     <link
       rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.min.css"
@@ -15,6 +16,7 @@
       rel="stylesheet"
       href="node_modules/bootstrap-social/bootstrap-social.css"
     />
+    <!-- endbuild -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="data:image/x-icon;base64,AAABAAEAEBACAAAAAACwAAAAFgAAACgAAAAQAAAAIAAAAAEAAQAAAAAAQAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAACAAAAAgAAAPJ8AADyfAAAEgQAABIEAACT5AAAk+QAABAEAAAQBAAA//wAAAAAAAAAAAAA"
@@ -536,8 +538,12 @@
     <div class="container-fluid pink-section amenities">
       <h2 class="padding-p">Amenities</h2>
       <div class="row row-content align-items-center py-5">
-        <div class="col-md-6">
-          <img class="img-fluid" src="img/valet.jpg" alt="" />
+        <div class="col-md-6 img-decor">
+          <img
+            class="img-shape img-fluid"
+            src="img/valet.jpg"
+            alt="Complimentary Privileges"
+          />
         </div>
         <div class="col-md-6">
           <h4>Complimentary Privileges</h4>
@@ -549,8 +555,12 @@
         </div>
       </div>
       <div class="row row-content align-items-center py-5" id="restaurant">
-        <div class="col-md-6 order-md-last">
-          <img class="img-fluid" src="img/food.jpg" alt="" />
+        <div class="col-md-6 img-decor order-md-last">
+          <img
+            class="img-shape img-fluid"
+            src="img/food.jpg"
+            alt="Restaurant"
+          />
         </div>
         <div class="col-6">
           <h4>Restaurant</h4>
@@ -563,8 +573,8 @@
         </div>
       </div>
       <div class="row row-content align-items-center py-5">
-        <div class="col-md-6">
-          <img class="img-fluid" src="img/pool.jpg" alt="" />
+        <div class="col-md-6 img-decor">
+          <img class="img-shape img-fluid" src="img/pool.jpg" alt="Pool" />
         </div>
         <div class="col-md-6">
           <h4>Pool</h4>
@@ -576,8 +586,12 @@
         </div>
       </div>
       <div class="row row-content align-items-center py-5">
-        <div class="col-md-6 order-md-last">
-          <img class="img-fluid" src="img/spa.jpg" alt="" />
+        <div class="col-md-6 img-decor order-md-last">
+          <img
+            class="img-shape img-fluid"
+            src="img/spa.jpg"
+            alt="Gym and Spa"
+          />
         </div>
         <div class="col-md-6">
           <h4>Gym and Spa</h4>
@@ -589,8 +603,8 @@
         </div>
       </div>
       <div class="row row-content align-items-center py-5" id="store">
-        <div class="col-md-6">
-          <img class="img-fluid" src="img/store.jpg" alt="" />
+        <div class="col-md-6 img-decor">
+          <img class="img-shape img-fluid" src="img/store.jpg" alt="Store" />
         </div>
         <div class="col-md-6">
           <h4>Store</h4>
@@ -602,8 +616,12 @@
         </div>
       </div>
       <div class="row row-content align-items-center py-5">
-        <div class="col-md-6 order-md-last">
-          <img class="img-fluid" src="img/wedding.jpg" alt="" />
+        <div class="col-md-6 img-decor order-md-last">
+          <img
+            class="img-shape img-fluid"
+            src="img/wedding.jpg"
+            alt="Rooms for Special Events"
+          />
         </div>
         <div class="col-md-6">
           <h4>Rooms for Special Events</h4>
@@ -1048,8 +1066,10 @@
       </div>
     </div>
     <!------------ Scripts ------------>
+    <!-- build:js js/main.js -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- endbuild -->
   </body>
 </html>

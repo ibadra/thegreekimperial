@@ -304,6 +304,19 @@ ul .tab-text {
   }
 }
 
+/* <!------------ Amenities Grid ------------> */
+
+.img-decor {
+  background: linear-gradient(#91d0b7, #91d0b7);
+  background-size: 15rem 10rem;
+  background-repeat: no-repeat;
+}
+
+.img-shape {
+  border-radius: 8%;
+  padding-top: 1rem;
+}
+
 /* <!------------ About Tarpon Springs ------------> */
 
 .tarpon-p {
@@ -398,4 +411,10 @@ ul .tab-text {
 
 .modal-body h5 {
   color: #5b3c94;
+}
+
+.title-style {
+  background-color: ;
+  padding: 1rem;
+  padding-right: 7rem;
 }
