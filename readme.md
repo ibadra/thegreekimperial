@@ -49,6 +49,6 @@ Click on the following links to view the wireframes:
 
 ## Features:
 
-Anytime the "Book" Button is clicked a modal will appear on the screen with the room options (options can be chosen but the "Check availability button" in the modal will redirect to the main page at the moment). For more functionality, you can check out [the Greek Imperial Hotel with React](https://thegreekimperialhoteltarponsprings.netlify.app/)!
+Anytime the "Book" Button is clicked, a modal will appear on the screen with the room options (options can be chosen but the "Check availability" button in the modal will redirect to the main page at the moment). For more functionality, you can check out [the Greek Imperial Hotel with React](https://thegreekimperialhoteltarponsprings.netlify.app/)!
 
 ## Want to see the Bootstrap version live? Visit the [Greek Imperial Hotel](https://thegreekimperialhotel.netlify.app/) website 🧳
